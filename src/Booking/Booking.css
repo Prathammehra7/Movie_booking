@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Navbar {
+    display: flex;
+    padding: 0px 110px;
+    margin: 26px;
+    background-color: transparent;
+    position: relative;
+    z-index: 10;
+    background-color: black transparent;
+}
+
+.Navlist {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    justify-content: right;
+
+}
+
+.Navlist li {
+    list-style: none;
+    padding: 14px 15px;
+
+
+}
+
+.Navlist li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.Logo {
+    display: flex;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 20px;
+    fill: #e50914;
+}
+.Logo img{
+    width: 120px;
+}
+.Box h1{
+    width: 50%;
+    height: 370px;
+}
+.heart img{
+    width: 10%;
+    height: 20%;
+}
+.side{
+
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    
+    padding-bottom: 50px;
+    align-items: center;
+    position: relative;
+    
+  
+}
+.side img{
+    width: 300px;
+    height: 450px;
+    padding-left: 50px;
+  
+}
+
+.Box {
+    position: relative;
+    color: white;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    font-size: xxx-large;
+    flex-direction: row-reverse;
+}
+
+.Box1 {
+    position: relative;
+    color: white;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    font-size: xxx-large;
+}
+
+.Box2 {
+    position: relative;
+    color: white;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    font-size: xxx-large;
+    margin: 40px;
+}
+
+.New img {
+    filter: brightness(30%);
+    background-color: BLACK;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    
+}
+
+/* .offer {
+    position: absolute;
+    background-image: url(netflix.jpg);
+    height: 655px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    top: 0px  
+}
+  
+  .container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 600px;
+   color: white;
+  }
+  .offer::before {
+    background-color: rgba(48, 51, 52, 0.76);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    content: '';
+  }
+  .col h1{
+    color: white;
+  } */
+button:hover {
+    color: white;
+    cursor: pointer;
+    background-color: red;
+}
+
+/* 
+
+.our-story-card-img,
+.our-story-card-img {
+    position: relative;
+    z-index: 2;
+    top: 800px;
+}
+
+.main2 {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: right;
+    background-color: black;
+}
+
+.our-story-card-animation {
+    display: flex;
+    justify-content: left;
+    top: 900px;
+    position: relative;
+    width: 37%;
+} */

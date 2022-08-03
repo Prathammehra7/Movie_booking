@@ -1,0 +1,120 @@
+body{
+    background-repeat: no-repeat;
+   background-size: 75%;
+    background-image: url(https://media.istockphoto.com/vectors/movie-camera-cinema-background-or-banner-movie-time-movie-ticket-vector-id1360457071?b=1&k=20&m=1360457071&s=170667a&w=0&h=oR2MzD0BcOi9rMzES_KmvAWFngCbIDm6447EcMwE-I4=);
+}
+.formContainers
+{
+    display :flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    
+}
+.formContainers h1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    font-size: 45px;
+    color: black;
+    margin-top: 2px;
+}
+.form 
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 40%;
+}
+
+.form label
+{
+    font-size: 17px;
+    width :450px;
+    padding-bottom:10px ;
+    text-transform: uppercase;
+}
+
+.form input
+{
+    border:1px solid black;
+    margin-bottom: 10px;
+    padding: 3px 5px;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    height: 30px;
+    width: auto;
+  
+}
+.bottombutton{
+    width: 29%;
+    margin-bottom: 50px ;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100%;
+    transition: 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.bottombutton1{
+    display: flex;
+align-content: center;
+width: 100%;
+justify-content: center;
+}
+
+.bottombutton li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    background-color: aqua;
+    border: 1px solid rgb(24, 205, 255);
+    border-radius: 40px;
+    margin: 1px 12px;
+  }
+  .bottombutton :hover {
+    transform: scale(1.1);
+  
+  }
+  
+  .bottombutton li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    color: black;
+    padding: 10px 70px;
+  
+  }
+
+.form button
+{
+    border: 1px solid black;
+    cursor: pointer;
+    width:150px;
+    padding: 5px 0px;
+    background-color: red;
+    color: white;
+    margin: 15px 210px;
+    text-transform: uppercase;
+    height: 40px;
+}
+.login{
+    width: 3%;
+    padding-top: 50px;
+}
+.form button:hover
+{
+    background-color: #002F34;
+}

@@ -1,0 +1,50 @@
+.bottom {
+  background-color: #1b93f6;
+  margin-top: 80px;
+}
+.footer{
+display: flex;
+padding: 0 10px;
+width: 100%;
+flex-direction: column;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+menu, ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.get{
+font-size: 20px;
+}
+.navfooterlist li:hover{
+color: white;
+}
+.navfooterlist div:hover{
+color: white;
+}
+.text-center {
+  text-align: center;
+  padding: 22px;
+  font-size: 40px;
+  color: white;
+}
+.navfooterlist{
+ display: table-cell;
+  padding: 6px 70px;
+  width: 20%; 
+  
+}
+.navfooterlist ul a{
+  color: inherit;
+  text-decoration: inherit;
+
+  
+}
+.navfooter{
+  margin-bottom: 80px;
+  padding: 10px 150px;
+}
