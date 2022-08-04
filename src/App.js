@@ -4,6 +4,7 @@ import Hompage from "./Hompage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./Login/Login";
 import Card1 from "./Cards/Card1";
+
 import Contact from "./Contact/Contact";
 import Items from "./Items/Items";
 import Signup from "./Signup/Signup";
@@ -16,6 +17,7 @@ export default function App() {
           <Route exact path="/" element={<Hompage/>}/>
           <Route exact path="/Login" element={<Login/>}/>
           <Route exact path="/Product" element={<Card1/>}/>
+          {/* <Route exact path="/" element={<Card2/>}/> */}
           <Route exact path="/First" element={<Booking/>}/>
           <Route exact path="/Signup" element={<Signup/>}/>
           <Route exact path="/Items" element={<Items/>}/>

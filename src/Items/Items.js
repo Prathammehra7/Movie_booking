@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from '../Footer/Footer'
+
 import Navbar from '../navbar/Navbar'
 import "./Items.css"
 
@@ -72,8 +72,7 @@ return (
             </div>
         </div>
     </div>
-    {/*
-    <Footer /> */}
+    
 
 
 </>

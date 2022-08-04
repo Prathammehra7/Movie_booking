@@ -1,58 +1,104 @@
 import React, { useState } from 'react';
 import Footer from '../../Footer/Footer';
+import axios from "axios"
 import "./Signup.css"
 export default function Signuppage() {
 
-    const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
-    const handleChange = () => {
-        if (email && password) {
-            window.location.href = "/Product";
+	const [name, setName] = useState();
+	const [useremail, setEmail] = useState();
+	const [password, setPass] = useState();
+	const [confirmpassword, setConPass] = useState();
+	const handleSignup = async () => {
+		const user = {
+			name,
+			useremail,
+			password,
+			confirmpassword,
+		};
 
-        }
-        else {
-            window.location.href = "/Signup"
-        }
+		await axios.post("http://localhost:4000/api/Signup", user).then(function (response) {
+			window.location.href = "/login";
+		})
 
-    }
+	}
 
-    return (
+	return (
         <>
-            <div className="formContainers">
-                <div className="login">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M224 256c70.7 0 128-57.31 128-128S294.7 0 224 0C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3C0 496.5 15.52 512 34.66 512h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304zM616 200h-48v-48C568 138.8 557.3 128 544 128s-24 10.75-24 24v48h-48C458.8 200 448 210.8 448 224s10.75 24 24 24h48v48C520 309.3 530.8 320 544 320s24-10.75 24-24v-48h48C629.3 248 640 237.3 640 224S629.3 200 616 200z" /></svg>
-                </div>
-                <h1>Signup</h1>
-                <div className="form">
-                    <label htmlFor="email">Email</label>
-                    <input type="email" name="email" id="email" required onChange={(e) => {
-                        setEmail(e.target.value);
-                    }} />
-                    <label htmlFor="password">Password</label>
-                    <input type="password" name="password" id="password" required onChange={(e) => {
-                        setPassword(e.target.value)
-                    }} />
-                    <label htmlFor="password">Comfirm Password</label>
-                    <input type="password" name="password" id="password" required onChange={(e) => {
-                        setPassword(e.target.value)
-                    }} />
-                    <div className="sign">
-                    <button onClick={handleChange} >Sign up</button>
-                        </div>
-                </div>
-                {/* <div className="bottombutton">
-                    <button onClick={handleChange} >Sign up</button>
-                    <button onClick={handleChange} >Forgot Password</button>
-                    <ul className="bottombutton1" >
-                        <li><a href="#home">Sign up</a></li>
-                        <li><a href="#about">Forget Password</a></li>
-                    </ul>
-                </div> */}
-            </div>
-            
-            
-            
-            <Footer/>
-        </>
-    );
+			<div class="limiter">
+				<div class="container-login100">
+					<div class="wrap-login100">
+						<div class="login100-form validate-form p-l-55 p-r-55 p-t-178">
+							<span class="login100-form-title">
+								Sign Up
+							</span>
+
+							<div class="wrap-input100 validate-input m-b-16" data-validate="Please enter username">
+								<input class="input100" type="name" name="name" id="name" placeholder='username' required onChange={(e) => {
+									setName(e.target.value);
+								}} />
+								</div>
+
+								<div class="wrap-input100 validate-input m-b-16" data-validate="Please enter email">
+									<input class="input100" type="email" name="email" id="email" placeholder='Email' required onChange={(e) => {
+										setEmail(e.target.value);
+									}} />
+									<span class="focus-input100"></span>
+								</div>
+
+								<div class="wrap-input100 validate-input" data-validate="Please enter password">
+									<input class="input100" type="password" name="password" id="password" placeholder='password' required onChange={(e) => {
+
+										setPass(e.target.value);
+
+									}} />
+									<span class="focus-input100"></span>
+								</div>
+								<div class="wrap-input100 validate-input" data-validate="Please enter Confirmpassword">
+									<input class="input100" type="password" name="password" id="password" placeholder='Comfirm password' required onChange={(e) => {
+
+										setConPass(e.target.value);
+
+									}} />
+									<span class="focus-input100"></span>
+								</div>
+
+								<div class="text-right p-t-13 p-b-23">
+									<span class="txt1">
+										Sign In /
+									</span>
+
+									<a href="/Login" class="txt2">
+										Login
+									</a>
+								</div>
+
+								<div class="container-login100-form-btn">
+									<button class="login100-form-btn" onClick={() => {
+
+										handleSignup();
+
+									}} >
+										Sign in
+									</button>
+								</div>
+
+								<div class="flex-col-c p-t-170 p-b-40">
+									<span class="txt1 p-b-9">
+										Don’t have an account?
+									</span>
+
+									<a href="/Signup" class="txt3">
+										Sign up now
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<Footer />
+			</>
+			);
 }

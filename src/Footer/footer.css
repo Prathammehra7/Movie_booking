@@ -5,7 +5,7 @@
 .footer{
 display: flex;
 padding: 0 10px;
-width: 100%;
+width: 98%;
 flex-direction: column;
 }
 a {

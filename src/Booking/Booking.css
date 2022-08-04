@@ -45,6 +45,29 @@
 .Logo img{
     width: 120px;
 }
+.info{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.D{
+    display: flex;
+flex-wrap: wrap;
+background-color: rgb(229, 229, 229);
+color: rgb(0, 0, 0);
+padding: 1px 9px;
+border-radius: 2px;
+align-self: flex-start;
+margin-top: 8px;
+font-size: 20px;
+width: 3%;
+}
+.heart{
+    display: flex;
+    align-items: center;
+}
+.rating{
+    font-size: 20px;
+}
 .Box h1{
     width: 50%;
     height: 370px;

@@ -1,14 +1,206 @@
-body{
+/* body{
     background-repeat: no-repeat;
    background-size: 75%;
     background-image: url(https://media.istockphoto.com/vectors/movie-camera-cinema-background-or-banner-movie-time-movie-ticket-vector-id1360457071?b=1&k=20&m=1360457071&s=170667a&w=0&h=oR2MzD0BcOi9rMzES_KmvAWFngCbIDm6447EcMwE-I4=);
+} */
+.container-login100 {
+    background-repeat: no-repeat;
+    background-size: 100%;
+     background-image: url(https://airplhrd.com/core/member/Login-Page-Background.jpg);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
 }
-.formContainers
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.limiter {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.wrap-login100 {
+    width: 500px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 20px 0px;
+}
+
+.login100-form {
+    width: 100%;
+    position: relative;
+    height: 700px;
+}
+
+.login100-form-title {
+
+    font-family: JosefinSans-Bold;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    display: block;
+  
+    background-color: rgb(87, 184, 70);
+    padding-top: 50px;
+    padding-bottom: 39px;
+}
+
+.focus-input100 {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 31px;
+    background-color: rgb(235, 235, 235);
+    pointer-events: none;
+    transition: all 0.4s ease 0s;
+}
+
+.wrap-input100 {
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 27px;
+    position: relative;
+    z-index: 1;
+}
+
+.p-b-23 {
+    padding-bottom: 23px;
+}
+
+.p-t-13 {
+    padding-top: 13px;
+    padding-right: 30px;
+}
+
+.p-b-40 {
+    padding-bottom: 40px;
+}
+
+.p-t-170 {
+    padding-top: 170px;
+}
+
+.p-b-9 {
+    padding-bottom: 9px;
+}
+
+.txt1 {
+    font-family: Ubuntu-Regular;
+    font-size: 15px;
+    color: rgb(153, 153, 153);
+    line-height: 1.4;
+}
+
+.txt2 {
+    font-family: Ubuntu-Regular;
+    font-size: 15px;
+    color: rgb(87, 184, 70);
+    line-height: 1.4;
+}
+
+.txt3 {
+    font-family: Ubuntu-Bold;
+    font-size: 15px;
+    color: rgb(87, 184, 70);
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.container-login100-form-btn {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.login100-form-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    width: 50%;
+    height: 50px;
+    background-color: rgb(87, 184, 70);
+    border-radius: 25px;
+    font-family: Ubuntu-Bold;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+}
+
+.flex-col-c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.validate-input {
+    position: relative;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.p-b-23 {
+    padding-bottom: 23px;
+}
+
+.p-t-13 {
+    padding-top: 13px;
+}
+
+.container-login100-form-btn {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.input100 {
+    font-family: Ubuntu-Bold;
+    font-size: 15px;
+    color: rgb(27, 56, 21);
+    line-height: 1.2;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 55px;
+    background: rgb(235, 235, 235) none repeat scroll 0% 0%;
+    border-radius: 27px;
+    padding: 0px 35px;
+}
+
+/* .formContainers
 {
     display :flex;
     flex-direction: column;
     align-items: center;
-    height: 500px;
+    height: 600px;
+    background-image: url(https://media.istockphoto.com/vectors/movie-camera-cinema-background-or-banner-movie-time-movie-ticket-vector-id1360457071?b=1&k=20&m=1360457071&s=170667a&w=0&h=oR2MzD0BcOi9rMzES_KmvAWFngCbIDm6447EcMwE-I4=);
+    background-repeat: no-repeat;
+    background-size: 75%;
     
 }
 .formContainers h1{
@@ -117,4 +309,4 @@ justify-content: center;
 .form button:hover
 {
     background-color: #002F34;
-}
+} */

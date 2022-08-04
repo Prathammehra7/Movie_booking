@@ -20,6 +20,13 @@
    
 
 }
+.formContainer2 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
 
 
 
