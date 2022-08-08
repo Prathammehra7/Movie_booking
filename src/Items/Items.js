@@ -38,6 +38,7 @@ return (
 
             <div class="quality_card_conteiner">
                 <div className='dis'>
+                   <a href="/Premium">
                     <div class="card">
                         <div class="card_text">
                             <h3>Buy 1 Get 1</h3>
@@ -49,6 +50,7 @@ return (
                            
                         </div>
                     </div>
+                   </a>
                     <div class="card">
 
                         <div class="card_text">
@@ -62,7 +64,7 @@ return (
 
 
                         <div class="card_text">
-                            <h3>Free shipping</h3>
+                            <h3>Up to 40% off</h3>
                             <p>
                                 We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
                           

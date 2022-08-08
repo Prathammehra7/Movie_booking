@@ -1,6 +1,4 @@
-.bottom {
-  background-color: #1b93f6;
-}
+
 
 .box1 {
   width: 100%;
@@ -48,8 +46,9 @@
   margin-bottom: 50px;
   cursor: pointer;
   background-color: black;
-border-bottom-left-radius: 43%;
-border-bottom-right-radius: 43%;
+  background-image: linear-gradient(to top, red, red,black ,black );
+border-bottom-left-radius: 40%;
+border-bottom-right-radius: 40%;
 height: 595px;
 
 }
@@ -80,8 +79,8 @@ height: 595px;
   height: 470px;
   width: 100%;
   background-size: cover;
-  border-bottom-left-radius: 55%;
-  border-bottom-right-radius: 55%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
   padding-top: 100px;
   animation: zoom-in 1s ease ;
 }
@@ -210,31 +209,31 @@ background-image: none;
   transform: scale(1.1);
 
 }
-.main2{
+.imp{
   display: flex;
   flex-direction: row;
   width: 100%;
 }
-.deals{
+.first{
   display: flex;
  justify-content: center;
  font-size: 50px;
 margin-bottom: 20px;
 }
-.mainicons{
+.mainline{
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.iconbar{
-  width: 100%;
+.containerline{
+  width: 97%;
 display: flex;
 justify-content: center;
 
 }
 .icons{
-  padding: 1px 50px;
+  padding: 1px 42px;
 }
 .icons:hover{
   text-decoration:underline ;
@@ -242,7 +241,7 @@ justify-content: center;
   cursor: pointer;
 
 }
-#about{
+#Item{
   padding-top: 50px;
   padding-bottom: 100px;
 
@@ -268,4 +267,122 @@ padding-top: 20px;
  
   width: 20%;
   padding-left: 20px;
+}
+
+.deals {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.mainicons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Iconbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+.Icons svg{
+  width: 50px;
+  margin-left: 12px;
+
+}
+.Icons {
+  padding: 35px 27px;
+  width: 170px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 105px;
+  height: 164px;
+  margin: 1px 30px;
+}
+.Icons3 {
+  padding: 35px 27px;
+  width: 170px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 105px;
+  height: 164px;
+  margin: 1px 30px;
+}
+.Icons3 svg {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 21px;
+  
+}
+.iconbar{
+  
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+  
+}
+.Icons:hover {
+  text-decoration: underline;
+  transform: scale(1.1);
+  cursor: pointer;
+
+}
+.Icons3:hover {
+  text-decoration: underline;
+  transform: scale(1.1);
+  cursor: pointer;
+
+}
+.main2{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+#about {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.font {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+
+
+}
+
+.texts {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.coming {
+
+  width: 20%;
+  padding-left: 20px;
+}
+
+#about {
+  padding-top: 50px;
+  padding-bottom: 100px;
+
 }

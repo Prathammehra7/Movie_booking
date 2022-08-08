@@ -1,15 +1,18 @@
 import React from 'react'
 import Footer from '../Footer/Footer'
 import Navbar from '../navbar/Navbar'
+import Carouselcontainer from '../Components/Carouselcontainer'
 import "./card.css"
 // import MyVideo from "../Cards/";
 export default function Card1() {
     return (
         <>
             <Navbar />
-            <div class="photo1">
+            {/* <div class="photo1">
                 <a href="/Items"> <img src="https://i.ytimg.com/vi/AgS_6UbQ8JM/maxresdefault.jpg" alt="" /></a>
-            </div>
+            </div> */}
+
+            <Carouselcontainer/>
 
             <div class="main1" id="home">
                 <div class="box1">
@@ -123,11 +126,11 @@ export default function Card1() {
                     title="video"
                 />{" "}
             </div> */}
-            <div className="Apps">
+            {/* <div className="Apps">
                 <video margin-top="50px" width="100%" height="500" controls >
                     <source src="https://rr5---sn-a5mekn6s.googlevideo.com/videoplayback?expire=1659557887&ei=n4PqYrLNHZmNkgae9bTIDQ&ip=104.227.173.206&id=o-AH1MnU90Vp9sAmO8IxyiroO0ytDi8wW3dvAwB-xdZML-&itag=22&source=youtube&requiressl=yes&mh=ik&mm=31%2C26&mn=sn-a5mekn6s%2Csn-n4v7snl7&ms=au%2Conr&mv=m&mvi=5&pl=24&initcwndbps=1037500&spc=lT-KhlJmBfPNIrvmkzVOH-79PlOQtJM&vprv=1&mime=video%2Fmp4&ns=sWgoUVdBbCPRG7wgrqlQolcH&cnr=14&ratebypass=yes&dur=77.902&lmt=1658875892124871&mt=1659535988&fvip=1&fexp=24001373%2C24007246&c=WEB&rbqsm=fr&txp=4532434&n=2tPVhmCOLIrMJSFIk&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Ccnr%2Cratebypass%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgR_TFo5W63MrghuTQaR4zdkd8oVAzpCNXe9bu_ZoremUCIDZsQbYXPMkpV1mBWQMnhObG0s_W0UYTPwavt2r0XmvL&sig=AOq0QJ8wRAIgcnhbhjWAXZ5KY0bpv_2L7oVDo2En8eOU-plph-oDhgACIE-r0m7viX6bnZH1qSpX-oZYQ3u9zS0Ynn7ABdRwx2qL" type="video/mp4" />
                 </video>
-            </div>
+            </div> */}
 
             <section>
                 <div class="photo2">

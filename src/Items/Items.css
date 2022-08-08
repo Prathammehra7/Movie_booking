@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-
+    
 
 }
 .gh{
@@ -13,7 +13,7 @@
 }
 .items {
     height: 200px;
-    background-color: #2C343E;
+    background-color: black;
     border-radius: 20px;
     width: 90%;
     padding: 6px 0px;
@@ -60,7 +60,8 @@
     border: 1px solid pink;
     width: 800px;
     height: 250px;
-    background-color: #0E8784;
+   background-image:  linear-gradient(180deg, white, black);
+    
     border-radius: 10px;
     display: flex;
     align-items: center;

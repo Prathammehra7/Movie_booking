@@ -1,0 +1,9 @@
+.main{
+    background-image: linear-gradient(180deg ,white,black);
+}
+.main h1{
+display: flex;
+justify-content: center;
+width: auto;
+font-size: 40px;
+}

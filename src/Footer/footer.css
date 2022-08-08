@@ -1,5 +1,5 @@
 .bottom {
-  background-color: #1b93f6;
+  background-image:  linear-gradient(180deg, white , red);
   margin-top: 80px;
 }
 .footer{
@@ -30,7 +30,7 @@ color: white;
   text-align: center;
   padding: 22px;
   font-size: 40px;
-  color: white;
+  color: black;
 }
 .navfooterlist{
  display: table-cell;

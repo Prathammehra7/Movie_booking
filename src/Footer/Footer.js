@@ -11,7 +11,7 @@ export default function Footer() {
 
             
 
-                <section class="bottom">
+                <section class="bottom" id="About">
                     <h2 class="text-center">
                         Contact us..
                     </h2>
