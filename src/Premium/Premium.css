@@ -6,7 +6,19 @@
     height: 500px;
 
 }
-
+.phone{
+    width: 12%;
+}
+.PhoneInput{
+    width: 12%;
+}
+.PhoneInputCountrySelect{
+    width: 700px;
+    height: 40px;
+}
+.PhoneInputCountryIconImg{
+    width: 80%;
+}
 .premium {
     display: flex;
     justify-content: center;
@@ -17,6 +29,11 @@
     align-items: center;
     margin-top: 72px;
 }
+#Country{
+    height: 40px;
+    margin-bottom: 10px;
+}
+
 .premiumform img{
     width: 50%;
     height: 620px;
@@ -38,6 +55,8 @@
     display: flex;
     flex-direction: column;
     text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .Form input{
     width: auto;
