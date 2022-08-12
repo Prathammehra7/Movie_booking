@@ -19,7 +19,7 @@ export default function Loginpage() {
             useremail,
             password,
         };
-        await axios.post("http://localhost:4000/api/Login", user).then(function (response) {
+        await axios.post("https://snazzy-zabaione-9e7d6a.netlify.app", user).then(function (response) {
             if (response.data.token) {
                 localStorage.setItem("token", response.data.token);
                 window.location.href = "/Product";
