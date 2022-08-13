@@ -1,9 +1,35 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
+
 // import "./Card.css"
 // import sedan from "./sedan.png";
 import "./navbar.css"
 
+
 export default function Navbar() {
+    const [inout,setinout] = useState()
+    const [inoutDirection, setDirection] = useState("/Login");
+
+    useEffect(() => {
+        let tokenval = localStorage.getItem("token");
+    
+        if (tokenval) {
+          setinout("Logout")
+          setDirection("/")
+        }
+        else
+        {
+          setinout("Login");
+          setDirection("/Login");
+        }
+       },[])
+    
+       const Handlechange = () => {
+        let tokenval = localStorage.getItem("token");
+        if (tokenval) {
+          localStorage.removeItem("token");
+        }
+       }
+
     return (
         <>
             <nav class="navbar ">
@@ -24,7 +50,9 @@ export default function Navbar() {
                     <li><a href="#home">HOME</a></li>
                     <li><a href="#About">ABOUT</a></li>
                     <div class="lk">
-                        <li><a href="/Login" target={"_main"}>LOGIN</a></li>
+                        <li><a href={inoutDirection} target={"_main"} onClick={() =>{
+                            Handlechange();
+                        }} >{inout}</a></li>
                     </div>
                 </ul>
 
