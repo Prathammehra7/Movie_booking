@@ -19,11 +19,11 @@ export default function Loginpage() {
             useremail,
             password,
         };
-        await axios.post("https://snazzy-zabaione-9e7d6a.netlify.app", user).then(function (response) {
+        await axios.post("https://moviebooking7.herokuapp.com/api/Login", user).then(function (response) {
             if (response.data.token) {
                 localStorage.setItem("token", response.data.token);
                 window.location.href = "/Product";
-            }
+            } 
         }).catch(function (error) {
             console.log(error);
         })

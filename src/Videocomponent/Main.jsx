@@ -7,16 +7,11 @@ const Main = () => {
     <div className='main'>
       <h1>Brahmāstra: motion Poster </h1>
       <video 
+      className='video'
       controls
       autoPlay
         loop
-        style={{
-          display: "flex",
-          justifycontent: "center",
-          width:"100%",
-          height:"600px",
-          backgroundimage:"linear-gradient(180deg, white , red)"
-        }}
+       
         playbackRates={{}}
      src={videoBg} >
         <source src={videoBg} type="video/mp4" />

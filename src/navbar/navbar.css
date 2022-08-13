@@ -136,3 +136,133 @@ form.example button:hover {
   max-width: 100%;
   height: auto;
 }
+@media only screen and (max-width: 1100px) {
+
+  .navlist {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.navbar {
+    flex-direction: column;
+    transition: all 0.9s ease-out;
+    height: auto;
+}
+
+.logo {
+
+    display: flex;
+    justify-content: center;
+    width: auto;
+    
+    
+    
+  }
+  .logo1{
+  margin-top: 20px;
+  margin-bottom: 27px;
+}
+.Search[type="text"]{
+  width: auto;
+  margin-top: 20px;
+
+}
+.oo{
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+
+.loginright {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+}
+
+.navlist {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+
+}
+.carousel{
+display: flex;
+justify-content: center;
+width: auto;
+height: auto;
+}
+.carousel-item img{
+  height: 150px;
+}
+.heading b{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin-left: 10px;
+}
+.headings{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin-left: 10px;
+}
+.photo img{
+  display: flex;
+  justify-content: center;
+  height: 410px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.photo{
+  border-bottom-left-radius: 40%;
+border-bottom-right-radius: 40%;
+height: 626px;
+}
+.main2{
+  display: flex;
+  justify-content: center;
+  width: auto;
+
+}
+
+.iconbar{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  flex-direction: column;
+}
+#about{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mainicons {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin-left: 20px;
+
+}
+.video{
+  height: 100px;
+}
+
+
+}
+
+
