@@ -150,6 +150,7 @@ form.example button:hover {
     flex-direction: column;
     transition: all 0.9s ease-out;
     height: auto;
+    margin-bottom: 10px;
 }
 
 .logo {
@@ -214,16 +215,15 @@ height: auto;
 .photo img{
   display: flex;
   justify-content: center;
-  height: 410px;
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  height: 320px;
 }
 
 .photo{
-  border-bottom-left-radius: 40%;
-border-bottom-right-radius: 40%;
-height: 626px;
-}
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  height: auto;}
 .main2{
   display: flex;
   justify-content: center;
@@ -248,6 +248,8 @@ height: 626px;
     display: flex;
     justify-content: center;
     align-items: center;
+  background-image:  linear-gradient(180deg, white , #FA8072);
+
 
 }
 .main h1{
@@ -259,9 +261,77 @@ height: 626px;
 
 }
 .video{
-  height: 100px;
+  height: auto;
+}
+.photo2 img {
+  height: auto;
+  width: 100%;
+  background-size: cover;
+}
+.Icons{
+padding: 35px 27px;
+width: 150px;
+display: grid;
+justify-content: center;
+align-items: center;
+border: 0px solid black;
+border-radius: 105px;
+height: 164px;
+margin: 1px 30px;
+
+
+}
+.Icons3{
+padding: 35px 27px;
+width: 150px;
+display: grid;
+justify-content: center;
+align-items: center;
+border: 0px solid black;
+border-radius: 105px;
+height: 164px;
+margin: 1px 30px;
+
+
+}
+.Icons svg {
+  width: 50%;
+  margin-left: 18px;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.containerline {
+  width: 97%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.mainline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.icons h1 {
+  margin-bottom: 50px;
+}
+.icons{
+  display: grid;
+  justify-content: center;
+  width: auto;
 }
 
+
+.navfooterlist {
+  display: table-cell;
+  padding: 6px 7px;
+  width: auto;
+}
 
 }
 

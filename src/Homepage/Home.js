@@ -173,7 +173,7 @@ export default function Home() {
                             </div>
                             <div class="icons">
                             <a href="#!" >
-                            <img className="col1" src="https://images.jdmagicbox.com/comp/jd_social/news/2018jul06/image-1904-7c6ece.jpg" alt="" />
+                            <img className="col" src="https://images.jdmagicbox.com/comp/jd_social/news/2018jul06/image-1904-7c6ece.jpg" alt="" />
                         </a>
                                 <h1> Avatar: The Way of Water</h1>
                             </div>

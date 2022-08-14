@@ -16,7 +16,7 @@ export default function Signuppage() {
 			confirmpassword,
 		};
 
-		await axios.post("http://localhost:4000/api/Signup", user).then(function (response) {
+		await axios.post("https://moviebooking7.herokuapp.com/api/Signup", user).then(function (response) {
 			window.location.href = "/login";
 		})
 

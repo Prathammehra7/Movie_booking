@@ -17,7 +17,6 @@ export default function App() {
     <div className="App">
       <Router>
         <Routes>
-          
           <Route exact path="/" element={<Hompage/>}/>
           <Route exact path="/Login" element={<Login/>}/>
           <Route exact path="/Product" element={<Card1/>}/>

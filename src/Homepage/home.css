@@ -185,7 +185,7 @@ height: 350px;padding: 0px 70px;
 }
 
 .icons img {
-  width: 350px;
+  width: 270px;
   height: 350px;
 }
 
@@ -216,12 +216,12 @@ background-image: none;
 }
 .first{
   display: flex;
- justify-content: center;
- font-size: 50px;
-margin-bottom: 20px;
+  justify-content: center;
+  font-size: 50px;
+  margin-bottom: 20px;
 }
 .mainline{
-  width: 100%;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -234,6 +234,13 @@ justify-content: center;
 }
 .icons{
   padding: 1px 42px;
+  width: 24%;
+}
+.col{
+  display: flex;
+justify-content: center;
+width: 100%;
+
 }
 .icons:hover{
   text-decoration:underline ;
