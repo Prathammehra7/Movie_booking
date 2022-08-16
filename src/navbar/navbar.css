@@ -332,6 +332,11 @@ margin: 1px 30px;
   padding: 6px 7px;
   width: auto;
 }
+.card{
+ display: grid;
+  justify-content: center;
+  width: auto;
+}
 
 }
 
