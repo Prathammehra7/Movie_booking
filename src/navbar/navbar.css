@@ -324,6 +324,7 @@ margin: 1px 30px;
 .icons h1 {
   margin-bottom: 50px;
 }
+
 .icons{
   display: grid;
   justify-content: center;
@@ -336,11 +337,7 @@ margin: 1px 30px;
   width: 100%;
   flex-direction: column;
 }
-.navfooterlist {
-  display: table-cell;
-  padding: 1px 4px;
-  width: auto;
-}
+
 .navfooterlist ul{
   font-size: 12px;
   

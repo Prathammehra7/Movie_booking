@@ -52,12 +52,14 @@ color: white;
 
   .navfooterlist {
     display: table-cell;
-    padding: 6px 9px;
+    padding: 1px 4px;
     width: auto;
   }
   .navfooter {
     margin-bottom: 80px;
     padding: 10px 1px;
   }
-
+.get{
+  padding-bottom: 15px;
+}
 }
