@@ -136,8 +136,15 @@ form.example button:hover {
   max-width: 100%;
   height: auto;
 }
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 500px) {
 
+
+.carousel-item img{
+  height: 190px;
+}
+}
+@media only screen and (max-width: 1100px) {
+  
   .navlist {
     flex-direction: column;
     display: flex;
@@ -197,9 +204,6 @@ justify-content: center;
 width: auto;
 height: auto;
 }
-.carousel-item img{
-  height: 150px;
-}
 .heading b{
   display: flex;
   justify-content: center;
@@ -228,7 +232,7 @@ height: auto;
   display: flex;
   justify-content: center;
   width: auto;
-
+  
 }
 
 .iconbar{
@@ -244,22 +248,22 @@ height: auto;
 }
 
 .mainicons {
-
+  
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:  linear-gradient(180deg, white , #FA8072);
+    
+    
+  }
+  .main h1{
     display: flex;
     justify-content: center;
     align-items: center;
-  background-image:  linear-gradient(180deg, white , #FA8072);
-
-
-}
-.main h1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: auto;
-  margin-left: 20px;
-
-}
+    width: auto;
+    margin-left: 20px;
+    
+  }
 .video{
   height: auto;
 }
@@ -269,20 +273,20 @@ height: auto;
   background-size: cover;
 }
 .Icons{
-padding: 35px 27px;
-width: 150px;
-display: grid;
-justify-content: center;
-align-items: center;
-border: 0px solid black;
-border-radius: 105px;
-height: 164px;
+  padding: 35px 27px;
+  width: 150px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid black;
+  border-radius: 105px;
+  height: 164px;
 margin: 1px 30px;
 
 
 }
 .Icons3{
-padding: 35px 27px;
+  padding: 35px 27px;
 width: 150px;
 display: grid;
 justify-content: center;
@@ -326,16 +330,23 @@ margin: 1px 30px;
   width: auto;
 }
 
-
+.footer {
+  display: flex;
+  padding: 0 10px;
+  width: 100%;
+  flex-direction: column;
+}
 .navfooterlist {
   display: table-cell;
-  padding: 6px 7px;
+  padding: 1px 4px;
   width: auto;
 }
-.card{
- display: grid;
-  justify-content: center;
-  width: auto;
+.navfooterlist ul{
+  font-size: 12px;
+  
+}
+.get{
+  font-size: 16px;
 }
 
 }

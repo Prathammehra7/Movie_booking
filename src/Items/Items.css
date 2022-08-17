@@ -163,15 +163,21 @@
         display: flex;
         justify-content: left;
         width: 40%;
+        font-size: 20px;
 
     }
-
+    .card_text h3{
+        color: #000;
+    }
+    .card_text p{
+        color: #000;
+    }
     .mp h4 {
         display: flex;
         justify-content: left;
-        width: 41%;
+        width: auto;
         height: 200px;
-        font-size: smaller;
+        font-size: 12px;
     }
 
     .gh {
@@ -183,6 +189,7 @@
         display: flex;
         justify-content: left;
         width: auto;
+        height: 750px;
     }
     .itemcontainer img {
         width: 100%;
