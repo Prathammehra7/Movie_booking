@@ -46,9 +46,25 @@ color: white;
 }
 .navfooter{
   margin-bottom: 80px;
-  padding: 10px 150px;
+  padding: 10px 100px;
 }
 @media only screen and (max-width: 1100px) {
+
+  .navfooterlist {
+    display: table-cell;
+    padding: 1px 4px;
+    width: auto;
+  }
+  .navfooter {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+  }
+.get{
+  padding-bottom: 15px;
+}
+}
+@media only screen and (max-width: 600px) {
 
   .navfooterlist {
     display: table-cell;

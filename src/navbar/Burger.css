@@ -1,0 +1,58 @@
+.logo {
+  font-size: 20px;
+}
+.navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+}
+
+
+
+.menu_icon {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+  }
+  .navbar_ul {
+    display: none;
+  }
+  .navbar_mobile_css {
+    position: absolute;
+    display: block;
+    background-color: #242424;
+    list-style: none;
+    left: 0;
+    top: 75px;
+    /* animation: slider 1s 1 forward ease-in; */
+    animation-name: slider;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    width: 100%;
+  }
+  @keyframes slider {
+    from {
+      transform: translateY(-15px)
+    }
+    to {
+      transform: translateY(0px);
+    }
+  }
+ 
+  .menu_icon {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    transition: all 0.5s ease-in-out;
+  }
+}
