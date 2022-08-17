@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Footer from '../../Footer/Footer';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import axios from "axios"
 import "./Signup.css"
 export default function Signuppage() {
@@ -17,8 +19,15 @@ export default function Signuppage() {
 		};
 
 		await axios.post("https://moviebooking7.herokuapp.com/api/Signup", user).then(function (response) {
-			window.location.href = "/login";
-		})
+
+			if (response.data.token) {
+				toast.success("SignUp Successfully");
+				window.location.href = "/login";
+            } 
+		}).catch(function (error) {
+			toast.warning("Something wrong");
+            console.log(error);
+        })
 
 	}
 
@@ -96,6 +105,7 @@ export default function Signuppage() {
 					</div>
 				</div>
 
+				<ToastContainer />
 
 
 				<Footer />
