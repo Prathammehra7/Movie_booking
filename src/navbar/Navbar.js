@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { HiMenu } from "react-icons/hi";
+import { HiMenuAlt3 } from "react-icons/hi";
 import { HiX } from "react-icons/hi";
+
 // import "./Card.css"
 // import sedan from "./sedan.png";
 import "./navbar.css"
@@ -60,7 +61,7 @@ export default function Navbar() {
                 </ul>
                 </div>
                 <div className='menu_icon' onClick={() => setmenu(!menu)}>
-                    {menu ? <HiX size={46} /> : <HiMenu size={46} />}
+                    {menu ? <HiX size={46} /> : <HiMenuAlt3 size={46} />}
                 </div>
             </nav>
 

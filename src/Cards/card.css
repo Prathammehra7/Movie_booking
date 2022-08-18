@@ -175,3 +175,81 @@ margin-top: 50px;
   width: 20%;
   padding-left: 20px;
 }
+@media only screen and (max-width: 700px) {
+
+  .main1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .box1 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container1 {
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1px 15px;
+
+  }
+  .container2 {
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1px 15px;
+
+  }
+  .container1 img {
+    width: 60px;
+    height: 100px;
+  }
+  .container2 img {
+    width: 60px;
+    height: 100px;
+  }
+
+  .font {
+    width: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+    height: 120px;
+  }
+  button {
+    width: 120%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+  .texts-thor{
+    font-size: 16px;
+    margin-top: 12px;
+  }
+  .texts-dc{
+    font-size: 16px;
+    margin-top: 12px;
+  }
+  .texts-ch{
+    font-size: 16px;
+    margin-top: 12px;
+  }
+
+.mainbutton{
+
+
+}
+
+
+
+}

@@ -24,7 +24,7 @@ export default function Card1() {
                         <div className="font">
                             <h2 class="texts"><b>Ek Villain Returns</b></h2>
 
-                            <button type="button" className="  px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Book</button>
+                            <button type="button" className="  mainbutton">Book</button>
                         </div>
                     </div>
                     <div class="container1">
@@ -35,7 +35,7 @@ export default function Card1() {
                         <div className="font">
                             <h2 class="texts"><b>Shamshera</b></h2>
 
-                            <button type="button" className="  px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                            <button type="button" className="  mainbutton">Button</button>
                         </div>
                     </div>
                     <div class="container2">
@@ -44,9 +44,9 @@ export default function Card1() {
                         </a>
 
                         <div className="font">
-                            <h2 class="texts"><b>Thor: Love and Thunder </b></h2>
+                            <h2 class="texts-thor"><b>Thor: Love and Thunder </b></h2>
 
-                            <button type="button" className="  px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                            <button type="button" className="  mainbutton">Button</button>
                         </div>
                     </div>
                     <div class="container2">
@@ -57,7 +57,7 @@ export default function Card1() {
                         <div className="font">
                             <h2 class="texts"><b>Rocketry</b></h2>
 
-                            <button type="button" className="  px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                            <button type="button" className=" mainbutton">Button</button>
                         </div>
                     </div>
 
@@ -76,7 +76,7 @@ export default function Card1() {
                         <div className="font">
                             <h2 class="texts"><b>Vikrant Rona</b></h2>
 
-                            <button type="button" className="  px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                            <button type="button" className="  mainbutton">Button</button>
                         </div>
                     </div>
                     <div class="container1">
@@ -87,7 +87,7 @@ export default function Card1() {
                         <div className="font">
                             <h2 class="texts"><b>Bullet Train</b></h2>
 
-                            <button type="button" className="  px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                            <button type="button" className=" mainbutton">Button</button>
                         </div>
                     </div>
                     <div class="container2">
@@ -96,9 +96,9 @@ export default function Card1() {
                         </a>
 
                         <div className="font">
-                            <h2 class="texts"><b>DC League of Super-Pets </b></h2>
+                            <h2 class="texts-dc"><b>DC League of Super-Pets </b></h2>
 
-                            <button type="button" className="  px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                            <button type="button" className="  mainbutton">Button</button>
                         </div>
                     </div>
                     <div class="container2">
@@ -107,9 +107,9 @@ export default function Card1() {
                         </a>
 
                         <div className="font">
-                            <h2 class="texts"><b>Chhalla Mud Ke Nahi Aaya</b></h2>
+                            <h2 class="texts-ch"><b>Chhalla Mud Ke Nahi Aaya</b></h2>
 
-                            <button type="button" className="  px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                            <button type="button" className="mainbutton">Button</button>
                         </div>
                     </div>
 
