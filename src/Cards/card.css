@@ -11,10 +11,11 @@ body {
   padding-top: 40px;
 }
 .container1 {
-  width: 22%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  width: 17%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin: 1px 30px;
   
 }
 .main1 {
@@ -28,6 +29,15 @@ body {
   transform: scale(1.1);
   
 }
+.texts-thor{
+  font-size: 22px;
+}
+.texts-dc{
+  font-size: 21px;
+}
+.texts-ch{
+  font-size: 20px;
+}
 
 .box2 {
   width: 100%;
@@ -39,10 +49,11 @@ body {
 }
 
 .container2 {
-  width: 20%;
+  width: 17%;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin: 1px 30px;;
 
 }
 .photo1 {
@@ -175,7 +186,12 @@ margin-top: 50px;
   width: 20%;
   padding-left: 20px;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (min-width: 650px) {
+
+
+
+}
+@media only screen and (max-width: 1100px) {
 
   .main1 {
     display: flex;
@@ -193,7 +209,7 @@ margin-top: 50px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 1px 15px;
+    margin: 1px 12px;
 
   }
   .container2 {
@@ -201,16 +217,17 @@ margin-top: 50px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 1px 15px;
+    margin: 1px 12px;
+
 
   }
   .container1 img {
-    width: 60px;
-    height: 100px;
+    width: auto;
+    height: 150px;
   }
   .container2 img {
-    width: 60px;
-    height: 100px;
+    width: auto;
+    height: 150px;
   }
 
   .font {

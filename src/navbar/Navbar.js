@@ -43,14 +43,14 @@ export default function Navbar() {
 
                 </div>
                
-                <div  className={menu ? 'navbar_mobile_css' : 'navbar_ul'}>
-                <ul class="navlist v-class-resp"  >
                     <div class="searchcomponent">
                 <input className="Search" type="text" placeholder="Type something to search" name="search"></input>
                 <div class="oo" action="/action_page.php">
                     <button class="search" type="submit">Search</button>
                     </div>
                 </div>
+                <div  className={menu ? 'navbar_mobile_css' : 'navbar_ul'}>
+                <ul class="navlist v-class-resp"  >
                     <li><a href="#home">HOME</a></li>
                     <li><a href="#About">ABOUT</a></li>
                     <div class="lk">

@@ -35,7 +35,7 @@ export default function Card1() {
                         <div className="font">
                             <h2 class="texts"><b>Shamshera</b></h2>
 
-                            <button type="button" className="  mainbutton">Button</button>
+                            <button type="button" className="  mainbutton">Book</button>
                         </div>
                     </div>
                     <div class="container2">
@@ -46,7 +46,7 @@ export default function Card1() {
                         <div className="font">
                             <h2 class="texts-thor"><b>Thor: Love and Thunder </b></h2>
 
-                            <button type="button" className="  mainbutton">Button</button>
+                            <button type="button" className="  mainbutton">Book</button>
                         </div>
                     </div>
                     <div class="container2">
@@ -57,7 +57,7 @@ export default function Card1() {
                         <div className="font">
                             <h2 class="texts"><b>Rocketry</b></h2>
 
-                            <button type="button" className=" mainbutton">Button</button>
+                            <button type="button" className=" mainbutton">Book</button>
                         </div>
                     </div>
 
@@ -76,7 +76,7 @@ export default function Card1() {
                         <div className="font">
                             <h2 class="texts"><b>Vikrant Rona</b></h2>
 
-                            <button type="button" className="  mainbutton">Button</button>
+                            <button type="button" className="  mainbutton">Book</button>
                         </div>
                     </div>
                     <div class="container1">
@@ -87,7 +87,7 @@ export default function Card1() {
                         <div className="font">
                             <h2 class="texts"><b>Bullet Train</b></h2>
 
-                            <button type="button" className=" mainbutton">Button</button>
+                            <button type="button" className=" mainbutton">Book</button>
                         </div>
                     </div>
                     <div class="container2">
@@ -98,7 +98,7 @@ export default function Card1() {
                         <div className="font">
                             <h2 class="texts-dc"><b>DC League of Super-Pets </b></h2>
 
-                            <button type="button" className="  mainbutton">Button</button>
+                            <button type="button" className="  mainbutton">Book</button>
                         </div>
                     </div>
                     <div class="container2">
@@ -109,7 +109,7 @@ export default function Card1() {
                         <div className="font">
                             <h2 class="texts-ch"><b>Chhalla Mud Ke Nahi Aaya</b></h2>
 
-                            <button type="button" className="mainbutton">Button</button>
+                            <button type="button" className="mainbutton">Book</button>
                         </div>
                     </div>
 
