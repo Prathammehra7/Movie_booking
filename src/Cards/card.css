@@ -206,19 +206,19 @@ margin-top: 50px;
     align-items: center;
   }
   .container1 {
-    width: 19%;
+    width: 21%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 1px 12px;
+    margin: 1px 5px;
 
   }
   .container2 {
-    width: 19%;
+    width: 21%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 1px 12px;
+    margin: 1px 5px;
 
 
   }
@@ -252,7 +252,7 @@ margin-top: 50px;
   }
 
   .font {
-    width: auto;
+  
     height: 50px;
     display: flex;
     align-items: center;
