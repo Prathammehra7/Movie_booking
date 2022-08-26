@@ -286,7 +286,7 @@ form.example button:hover {
     display: flex;
     justify-content: center;
     width: auto;
-    flex-direction: column;
+   
 
   }
 
@@ -433,43 +433,7 @@ form.example button:hover {
 
   }
 
-  .New img {
-    filter: brightness(30%);
-    background-color: BLACK;
-    position: absolute;
-    top: 0px;
-    width: 100%;
-    height: 650px;
-  }
-
-  .side {
-    display: flex;
-    justify-content: center;
-  }
-
-  .side img {
-    width: 150px;
-    height: 250px;
-    margin-left: 20px;
-  }
-
-  .Box h1 {
-    width: auto;
-    height: 300px;
-    font-size: 50px;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    padding: 1px 10px;
-  }
-
-  .Box {
-    margin-top: 50px;
-
-  }
-  .D{
-    width: 20%;
-  }
+  
 
 
 }
