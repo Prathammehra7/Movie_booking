@@ -11,7 +11,7 @@ body {
   padding-top: 40px;
 }
 .container1 {
-  width: 17%;
+  width: 18%;
 display: flex;
 justify-content: center;
 flex-direction: column;
@@ -49,7 +49,7 @@ margin: 1px 30px;
 }
 
 .container2 {
-  width: 17%;
+  width: 18%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -206,7 +206,7 @@ margin-top: 50px;
     align-items: center;
   }
   .container1 {
-    width: 21%;
+    width: 22%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -214,7 +214,7 @@ margin-top: 50px;
 
   }
   .container2 {
-    width: 21%;
+    width: 22%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -262,7 +262,7 @@ margin-top: 50px;
     height: 120px;
   }
   button {
-    width: 120%;
+    width: 100%;
     height: auto;
     display: flex;
     align-items: center;
@@ -284,6 +284,7 @@ margin-top: 50px;
   }
 
 .mainbutton{
+  width: 120%;
 
 
 }

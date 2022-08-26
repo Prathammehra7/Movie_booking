@@ -1,26 +1,13 @@
 import React from 'react'
 import Footer from '../Footer/Footer'
+import Navbar from "../navbar/Navbar";
 import "./Booking.css"
 // import MyVideo from "../Cards/";
 
 export default function Booking1() {
 return (
 <>
-    <nav class="Navbar">
-        <div class="Logo">
-
-
-            <img src="https://www.logomaker.com/api/main/images/1j+ojVVCOMkX9Wyrexe4hGfQ...Knf93QXx1nbizxmfGwQoQJlkCEvgvtj8v4tb0NZoBRejhUJd885iSx...U4gD3UQ6oXbQZs4AVn8="
-                alt=""></img>
-
-        </div>
-        <ul class="Navlist">
-            <li><a href="#home">HOME</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-            <li><a href="#help">HELP</a></li>
-        </ul>
-    </nav>
+<Navbar/>
     <section class="main-background">
 
         <div class="New">

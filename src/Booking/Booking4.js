@@ -4,7 +4,7 @@ import Footer from '../Footer/Footer'
 import "./Booking.css"
 // import MyVideo from "../Cards/";
 
-export default function Booking3() {
+export default function Booking4() {
 return (
 <>
    <Navbar/>
@@ -16,7 +16,7 @@ return (
         </div>
         <div class="Box">
             <h1>
-            Rocketry
+            Vikrant Rona
                 <div class="heart">
                     <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/love-5700794-4778169.png"
                         alt=""></img>
@@ -35,7 +35,7 @@ return (
                 <button>Book</button>
             </h1>
             <div class="side">
-                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@heart_202006300400.png,ox-24,oy-617,ow-29:ote-OTYlICA1N2sgdm90ZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00094131-bvntegebbz-portrait.jpg"
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@heart_202006300400.png,ox-24,oy-617,ow-29:ote-ODYlICAyNmsgdm90ZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00128225-rjrxwrpkjp-portrait.jpg"
                     alt=""></img>
             </div>
         </div>

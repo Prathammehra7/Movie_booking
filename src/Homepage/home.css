@@ -8,7 +8,7 @@
   padding-top: 40px;
 }
 .container1 {
-  width: 20%;
+  width: 18%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -36,7 +36,7 @@
 }
 
 .container2 {
-  width: 20%;
+  width: 18%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -302,26 +302,13 @@ padding-top: 20px;
 
 }
 .Icons {
-  padding: 35px 27px;
-  width: 170px;
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid black;
-  border-radius: 105px;
-  height: 164px;
-  margin: 1px 30px;
+  padding: 3px 27px;
+  height: 100px;
+
 }
 .Icons3 {
-  padding: 35px 27px;
-  width: 170px;
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid black;
-  border-radius: 105px;
-  height: 164px;
-  margin: 1px 30px;
+  padding: 3px 27px;
+  height: 100px;
 }
 .Icons3 svg {
   width: 60px;

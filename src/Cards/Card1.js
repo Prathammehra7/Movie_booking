@@ -69,7 +69,7 @@ export default function Card1() {
             <div class="main1" id="home">
                 <div class="box1">
                     <div class="container1">
-                        <a href="#!" >
+                        <a href="/Five" >
                             <img className=" col" src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@heart_202006300400.png,ox-24,oy-617,ow-29:ote-ODYlICAyNmsgdm90ZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00128225-rjrxwrpkjp-portrait.jpg" alt="" />
                         </a>
 
@@ -80,7 +80,7 @@ export default function Card1() {
                         </div>
                     </div>
                     <div class="container1">
-                        <a href="#!" >
+                        <a href="/Six" >
                             <img className="col1" src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-MTJrIGxpa2Vz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00323863-jynbqbnnba-portrait.jpg" alt="" />
                         </a>
 
@@ -91,7 +91,7 @@ export default function Card1() {
                         </div>
                     </div>
                     <div class="container2">
-                        <a href="#!" >
+                        <a href="/Seven" >
                             <img className="col" src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-MTRrIGxpa2Vz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00318402-ynxmzzcdyy-portrait.jpg" alt="" />
                         </a>
 
@@ -102,7 +102,7 @@ export default function Card1() {
                         </div>
                     </div>
                     <div class="container2">
-                        <a href="#!" >
+                        <a href="/Eight" >
                             <img className=" col1" src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@heart_202006300400.png,ox-24,oy-617,ow-29:ote-ODQlICA0ayB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00333999-sgeslpqajm-portrait.jpg" alt="" />
                         </a>
 
