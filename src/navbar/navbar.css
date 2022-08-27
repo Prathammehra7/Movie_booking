@@ -432,6 +432,12 @@ form.example button:hover {
     height: auto;
 
   }
+  .Form {
+    display: flex;
+    flex-direction: column;
+
+
+  }
 
   
 
