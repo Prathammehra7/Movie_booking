@@ -18,6 +18,7 @@
 
 .left-texts {
     padding: 12px 110px;
+    color: rgb(197, 254, 235);
 }
 
 .phone {
@@ -163,7 +164,7 @@ height: 50px;
         width: 50%;
         height: 450px;
         flex-direction: column;
-        margin-right: 20px;
+        margin-right: 10px;
         margin-top: 0px;
     }
 
@@ -197,6 +198,7 @@ height: 50px;
     .left-texts {
         padding: 12px 10px;
         font-size: 15px;
+        
     }
     .left-texts p {
         margin-top: 0;

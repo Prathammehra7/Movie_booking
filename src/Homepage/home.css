@@ -302,12 +302,12 @@ padding-top: 20px;
 
 }
 .Icons {
-  padding: 3px 27px;
+  padding: 3px 45px;
   height: 100px;
 
 }
 .Icons3 {
-  padding: 3px 27px;
+  padding: 3px 45px;
   height: 100px;
 }
 .Icons3 svg {
@@ -342,12 +342,13 @@ padding-top: 20px;
   display: flex;
   flex-direction: row;
   width: 100%;
-
+  margin: 50px 0px;
 }
 
 #about {
   padding-top: 50px;
   padding-bottom: 100px;
+  height: 450px;
 }
 
 .font {

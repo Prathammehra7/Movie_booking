@@ -247,7 +247,7 @@ p {
 
 }
 .carousel-control-prev:hover{
-behavior:inherit;
+
 
   background-image: linear-gradient(to left, white, black);
 

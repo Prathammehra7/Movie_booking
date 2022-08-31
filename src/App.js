@@ -3,7 +3,7 @@ import "./main.css"
 import Hompage from "./Hompage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./Login/Login";
-import Card1 from "./Cards/Card1";
+import Movielb from "./Movies/Movielibrary";
 import Contact from "./Contact/Contact";
 import Items from "./Items/Items";
 import Signup from "./Signup/Signup";
@@ -23,9 +23,9 @@ export default function App() {
         <Routes>
           <Route exact path="/" element={<Hompage/>}/>
           <Route exact path="/Login" element={<Login/>}/>
-          <Route exact path="/Product" element={<Card1/>}/>
+          <Route exact path="/Product" element={<Movielb/>}/>
           <Route exact path="/Premium" element={<Premium/>}/>
-          <Route exact path="/First" element={<Booking/>}/>
+          <Route exact path="/Moviebook/:movieid" element={<Booking/>}/>
           <Route exact path="/Second" element={<Booking1/>}/>
           <Route exact path="/Third" element={<Booking2/>}/>
           <Route exact path="/Fourth" element={<Booking3/>}/>

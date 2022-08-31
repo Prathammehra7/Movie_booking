@@ -148,6 +148,22 @@ form.example button:hover {
   max-width: 100%;
   height: auto;
 }
+@media only screen and (max-width: 850px) {
+
+  .photo img {
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    height: 300px;
+  }
+
+  .photo {
+    border-bottom-left-radius:0%;
+    border-bottom-right-radius: 0%;
+    height: auto;
+  }
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -169,6 +185,24 @@ form.example button:hover {
     align-items: flex-end;
   }
 }
+
+/* @media only screen and (max-width: 1000px) {
+
+  .photo img {
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    height: 400px;
+  }
+
+  .photo {
+    border-bottom-left-radius: 32%;
+    border-bottom-right-radius: 32%;
+    height: auto;
+  }
+} */
+
 
 @media only screen and (max-width: 1100px) {
 
@@ -251,7 +285,9 @@ form.example button:hover {
     display: flex;
     justify-content: center;
     width: auto;
-    margin-left: 10px;
+    margin-left: 25px;
+    font-size: 25px;
+    
   }
 
   .headings {
@@ -259,21 +295,10 @@ form.example button:hover {
     justify-content: center;
     width: auto;
     margin-left: 10px;
+    font-size: 18px;
   }
 
-  .photo img {
-    display: flex;
-    justify-content: center;
-    border-bottom-left-radius: 40%;
-    border-bottom-right-radius: 40%;
-    height: 400px;
-  }
 
-  .photo {
-    border-bottom-left-radius: 32%;
-    border-bottom-right-radius: 32%;
-    height: auto;
-  }
 
   .main2 {
     display: flex;
@@ -294,6 +319,9 @@ form.example button:hover {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-top: 0px;
+padding-bottom: 0px;
+height: 400px;
   }
 
   .mainicons {
@@ -383,6 +411,9 @@ form.example button:hover {
 
   .icons h1 {
     margin-bottom: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
   }
 
   .icons {

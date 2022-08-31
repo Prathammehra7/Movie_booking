@@ -6,7 +6,7 @@ import axios from 'axios';
 import Swal from 'sweetalert2';
 
 
-function Booking() {
+function Moviebook() {
     
     const[Moviebook,setMoviebook] = useState({})
     // const[alert,setalert] = useState(false);
@@ -19,7 +19,7 @@ function Booking() {
         async function fetchData() {
           try {
             const data = (
-              await axios.get(`https://moviebooking7.herokuapp.com/movie/findmovies/${movieid}`, {})).data;
+              await axios.get(`https://moviebooking-utkarsh.herokuapp.com/api/movies/findmovies/${movieid}`, {})).data;
             setMoviebook(data);
             console.log(data);
           } catch (error) {
@@ -50,14 +50,12 @@ function Booking() {
         console.log(error);
       })
   }
-  return (
 
-    
+  return (
     <div className='return_div_moviebook'>
-      
         <div className='movie-book-flex'>
             <div>
-            <img className='movie-book-card-img' src={Moviebook.movieimg} alt="" />
+            <img className='movie-book-card-img' src={Moviebook.movielbImg} alt="" />
             </div> 
             <div className='movie-book-div2'>
                 <p className="movie-book-p" >{Moviebook.movieName}</p>
@@ -77,4 +75,4 @@ function Booking() {
   )
 }
 
-export default Booking;
+export default Moviebook

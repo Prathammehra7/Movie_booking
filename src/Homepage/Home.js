@@ -180,7 +180,7 @@ export default function Home() {
 
                             <div class="icons">
                             <a href="#!" >
-                            <img className=" col" src="https://www.filmjabber.com/movie-poster-thumbs/ant-man-and-the-wasp-quantumania-movie-poster-6962.jpg" alt="" />
+                            <img className="neem" src="https://www.filmjabber.com/movie-poster-thumbs/ant-man-and-the-wasp-quantumania-movie-poster-6962.jpg" alt="" />
                         </a>
                                 <h1>Ant-Man and The Wasp: Quantumania</h1>
                             </div>

@@ -5,13 +5,10 @@ import Carouselcontainer from '../Components/Carouselcontainer'
 import "./card.css"
 // import MyVideo from "../Cards/";
 export default function Card1() {
+    
     return (
         <>
             <Navbar />
-            {/* <div class="photo1">
-                <a href="/Items"> <img src="https://i.ytimg.com/vi/AgS_6UbQ8JM/maxresdefault.jpg" alt="" /></a>
-            </div> */}
-
             <Carouselcontainer/>
 
             <div class="main1" id="home">
