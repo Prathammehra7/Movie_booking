@@ -19,7 +19,7 @@ function Booking() {
         async function fetchData() {
           try {
             const data = (
-              await axios.get(`https://moviebooking7.herokuapp.com/movie/findmovies/${movieid}`, {})).data;
+              await axios.get(`https://moviebooking07.herokuapp.com/movie/findmovies/${movieid}`, {})).data;
             setMoviebook(data);
             console.log(data);
           } catch (error) {
@@ -35,7 +35,7 @@ function Booking() {
 
           const userId = {id : localStorage.getItem("userid")}
           console.log(userId);
-          await axios.post(`https://moviebooking7.herokuapp.com/api/Moviebook/${movieid}`,userId).then(function (response)
+          await axios.post(`https://moviebooking07.herokuapp.com/api/Moviebook/${movieid}`,userId).then(function (response)
       {
         if(response.data)
         {

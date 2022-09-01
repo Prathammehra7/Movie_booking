@@ -21,7 +21,7 @@ export default function Loginpage() {
             useremail,
             password,
         };
-        await axios.post("https://moviebooking7.herokuapp.com/api/Login", user).then(function (response) {
+        await axios.post("https://moviebooking07.herokuapp.com/api/Login", user).then(function (response) {
             if (response.data.token) {
 				toast.success("SignUp Successfully");
                 localStorage.setItem("token", response.data.token);
