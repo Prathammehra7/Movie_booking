@@ -44,6 +44,7 @@ function Movielb() {
                   </div>
                   <p className="movie-page-p" >{moviee.movieName}</p>
                   <p className="movie-page-p1" >{moviee.movieLanguage} . {moviee.movieTime} </p>
+                  <p className="movie-page-p1" >{moviee.movieWatch} </p>
                   <p className="movie-page-p2" >{moviee.theatre} . {moviee.Price} </p>
                 </div>
                 );

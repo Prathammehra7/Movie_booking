@@ -60,9 +60,10 @@ function Booking() {
             <img className='movie-book-card-img' src={Moviebook.movieimg} alt="" />
             </div> 
             <div className='movie-book-div2'>
-                <p className="movie-book-p" >{Moviebook.movieName}</p>
-                <p className="movie-book-p1" >{Moviebook.language} . {Moviebook.genres} . {Moviebook.year}</p>
-                <p className="movie-book-p2" >{Moviebook.time}</p>
+            <p className="movie-page-p" >{Moviebook.movieName}</p>
+                  <p className="movie-page-p1" >{Moviebook.movieLanguage} . {Moviebook.movieWatch} </p>
+                  <p className="movie-page-p2" >{Moviebook.movieTime}  </p>
+                  <p className="movie-page-p2" >{Moviebook.moviePrice}  </p>
                 <div className='movie-book-button-div'>
                 <button className='movie-book-button' onClick={() => {
                   handleBooking();
