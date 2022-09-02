@@ -4,11 +4,7 @@
 }
 .return_div_moviebook
 {
-    background-color: #202020;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
 }
 .movie-book-card-img
 {
@@ -21,12 +17,12 @@
 }
 .movie-book-p
 {
-  color: ghostwhite;   
+  color: black;   
   font-size: xx-large;
 }
 .movie-book-p1
 {
-    color: ghostwhite;   
+    color: black;   
     font-size: x-large;
 }
 .movie-book-p2

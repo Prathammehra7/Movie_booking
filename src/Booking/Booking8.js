@@ -7,7 +7,7 @@ import Navbar from "../navbar/Navbar";
 import Swal from 'sweetalert2';
 
 
-function Booking7() {
+function Booking8() {
 
   const [Moviebook, setMoviebook] = useState({})
   // const[alert,setalert] = useState(false);
@@ -103,4 +103,4 @@ function Booking7() {
   )
 }
 
-export default Booking7;
+export default Booking8;

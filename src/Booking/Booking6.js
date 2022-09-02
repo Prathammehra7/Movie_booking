@@ -1,60 +1,106 @@
 import React from 'react'
+import "./moviebook.css";
+import { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+import axios from 'axios';
 import Navbar from "../navbar/Navbar";
-import Footer from '../Footer/Footer'
-import "./Booking.css"
-// import MyVideo from "../Cards/";
+import Swal from 'sweetalert2';
 
-export default function Booking6() {
-return (
-<>
-   <Navbar/>
-    <section class="main-background">
+
+function Booking6() {
+
+  const [Moviebook, setMoviebook] = useState({})
+  // const[alert,setalert] = useState(false);
+  const { movieid } = useParams();
+
+  useEffect(() => {
+    axios.defaults.headers = {
+      auth: localStorage.getItem("token"),
+    };
+    async function fetchData() {
+      try {
+        const data = (
+          await axios.get(`https://moviebooking07.herokuapp.com/movie/findmovies/${movieid}`, {})).data;
+        setMoviebook(data);
+        console.log(data);
+      } catch (error) {
+        console.log(error);
+      }
+    }
+    fetchData();
+  }, []);
+
+
+  async function handleBooking() {
+
+    const userId = { id: localStorage.getItem("userid") }
+    console.log(userId);
+    await axios.post(`https://moviebooking07.herokuapp.com/api/Moviebook/${movieid}`, userId).then(function (response) {
+      if (response.data) {
+        Swal.fire(
+          'Just Book!',
+          'Thank You ! You have Successfully Booked Your Movie',
+          'success'
+        )
+      }
+    }).catch(function (error) {
+      console.log(error);
+    })
+  }
+  return (
+
+
+    <div className='return_div_moviebook'>
+      <section class="main-background">
+        <Navbar />
+
 
         <div class="New">
-            <img src="https://assets.nflxext.com/ffe/siteui/vlv3/c2578c37-8569-4f88-b8f1-67a26a9ddcdd/4f46d201-48d4-40a7-9bfb-8e260d680912/IN-en-20220725-popsignuptwoweeks-perspective_alpha_website_small.jpg"
-                alt=""></img>
+          <img src="https://assets.nflxext.com/ffe/siteui/vlv3/c2578c37-8569-4f88-b8f1-67a26a9ddcdd/4f46d201-48d4-40a7-9bfb-8e260d680912/IN-en-20220725-popsignuptwoweeks-perspective_alpha_website_small.jpg"
+            alt=""></img>
         </div>
-        <div class="Boxes">
-            <h1>
-            DC League of Super-Pets 
-                <div class="heart">
-                    <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/love-5700794-4778169.png"
-                        alt=""></img>
-                    <div class="rating">
-                        17.3K ratings
-                    </div>
-                </div>
-                <div class="D">
-                    <a href="">2D</a>
-                </div>
-                <div class="D">
-                    <a href="">3D</a>
-                </div>
-                <div class="info">2h 8m •Action,Romantic,Thriller• UA • 29 Jul, 2022
-                </div>
-                <button>Book</button>
-            </h1>
-            <div class="side">
-                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-MTRrIGxpa2Vz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00318402-ynxmzzcdyy-portrait.jpg"
-                    alt=""></img>
+        <div class="Box">
+          <h1>
+          <p className="movie-page-p" >{Moviebook.movieName}</p>
+
+            <div class="heart">
+              <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/love-5700794-4778169.png"
+                alt=""></img>
+              <div class="rating">
+                17.3K ratings
+              </div>
             </div>
+            <div class="D">
+              <a href="">2D</a>
+            </div>
+            <div class="D">
+              <a href="">3D</a>
+            </div>
+            <div class="info">2h 8m •Action,Romantic,Thriller• UA • 29 Jul, 2022
+            </div>
+            <button className='button' onClick={() => {
+                  handleBooking();
+                }}>
+                Proceed To Book</button>
+          </h1>
+          <div class="side">
+          <img className='movie-book-card-img' src={Moviebook.movieimg} alt="" />
+          </div>
         </div>
         <div class="Box1">
-            <h6>
-                Watch anywhere.Cancle anytime
-            </h6>
+          <h6>
+            Watch anywhere.Cancle anytime
+          </h6>
         </div>
         <div class="Box2">
 
         </div>
 
-    </section>
-
-    <Footer />
+      </section>
 
 
-
-
-</>)
-
+    </div>
+  )
 }
+
+export default Booking6;
