@@ -76,7 +76,10 @@ function Booking4() {
             <div class="D">
               <a href="">3D</a>
             </div>
-            <div class="info">2h 8m •Action,Romantic,Thriller• UA • 29 Jul, 2022
+            <div class="info">
+            <p className="movie-page-p" >{Moviebook.theater} </p>
+            <p className="movie-page-p1" >{Moviebook.movieTime} </p>
+              2h 8m •Action,Romantic,Thriller• UA • 29 Jul, 2022
             </div>
             <button className='button' onClick={() => {
                   handleBooking();

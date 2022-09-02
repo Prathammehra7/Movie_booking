@@ -12,6 +12,9 @@
     padding: 100px 0;
     margin-bottom: 70px;
 }
+.movie-return-div{
+    background-color: black;
+}
 .movie-page-banner-p
 {
     font-size: xx-large;
@@ -54,7 +57,7 @@
 .movie-page-p
 {
     font-size: 3.3vh;
-    color: black;
+    color: white;
 }
 .movie-page-pp
 {
@@ -63,12 +66,12 @@
 }
 .movie-page-p1
 {
-    color: black;
+    color: white;
     font-size: 2.5vh;
 }
 .movie-page-p2
 {
-    color: black;
+    color: white;
     font-size: 2.5vh;
 }
 /* Responsive */
@@ -115,7 +118,10 @@
 @media (max-width:1140px) {
     .movie-page-card
     {
-        margin: 1vh 0vw;
+        margin: 15px 0px;
+        width: 125px;
+        padding: 2px 7px;
+      
     }   
 }
 @media (max-width:890px) {
@@ -145,6 +151,7 @@
     }
     .movie-page-p
     {
+        color: white;
         font-size: 2vh;
     }
     .movie-page-pp
@@ -153,10 +160,12 @@
     }
     .movie-page-p1
     {
+        color: white;
         font-size: 1.5vh;
     }
     .movie-page-p2
     {
+        color: white;
         font-size: 1.5vh;
     }
     .movie-page-banner {
@@ -167,7 +176,7 @@
 @media (max-width:400px) {
     .movie-page-card-div-img
     {
-        height: 20vh;    
+        height: 21vh;    
     }   
     .movie-page-card-img
     {
@@ -175,7 +184,8 @@
     }
     .movie-page-p
     {
-        font-size: 1.5vh;
+        color: white;
+        font-size: 20px;
     }
     .movie-page-pp
     {
@@ -183,7 +193,7 @@
     }
     .movie-page-p1
     {
-        font-size: 1vh;
+        font-size: 14px;
     }
     .movie-page-p2
     {

@@ -83,8 +83,8 @@ function Booking() {
         </div>
         <div class="Box">
           <h1>
-          <p className="movie-page-pp" >{Moviebook.movieName}</p>
-            
+            <p className="movie-page-pp" >{Moviebook.movieName}</p>
+
             <div class="heart">
               <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/love-5700794-4778169.png"
                 alt=""></img>
@@ -97,16 +97,21 @@ function Booking() {
             </div>
             <div class="D">
               <a href="">3D</a>
+
             </div>
-            <div class="info">2h 8m •Action,Romantic,Thriller• UA • 29 Jul, 2022
+            <div class="info">
+            <p className="movie-page-p" >{Moviebook.theater} </p>
+            <p className="movie-page-p1" >{Moviebook.movieTime} </p>
+              •Action,Romantic,Thriller• UA • 29 Jul, 2022
+
             </div>
             <button className='button' onClick={() => {
-                  handleBooking();
-                }}>
-                Proceed To Book</button>
+              handleBooking();
+            }}>
+              Proceed To Book</button>
           </h1>
           <div class="side">
-          <img className='movie-book-card-img' src={Moviebook.movieimg} alt="" />
+            <img className='movie-book-card-img' src={Moviebook.movieimg} alt="" />
           </div>
         </div>
         <div class="Box1">
@@ -120,7 +125,7 @@ function Booking() {
 
       </section>
 
-<Footer/>
+      <Footer />
     </div>
   )
 }
