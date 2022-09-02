@@ -115,7 +115,7 @@
 @media (max-width:1140px) {
     .movie-page-card
     {
-        margin: 5vh 1vw;
+        margin: 1vh 0vw;
     }   
 }
 @media (max-width:890px) {
@@ -175,11 +175,11 @@
     }
     .movie-page-p
     {
-        font-size: 1.3vh;
+        font-size: 1.5vh;
     }
     .movie-page-pp
     {
-        font-size: 1.3vh;
+        font-size: 3vh;
     }
     .movie-page-p1
     {

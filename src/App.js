@@ -18,6 +18,8 @@ import Booking6 from "./Booking/Booking6";
 import Booking7 from "./Booking/Booking7";
 import Booking8 from "./Booking/Booking8";
 import Booking9 from "./Booking/Booking9";
+import Booking10 from "./Booking/Booking10";
+import Booking11 from "./Booking/Booking11";
 export default function App() {
   return (
     <div className="App">
@@ -37,6 +39,8 @@ export default function App() {
           <Route exact path="/Moviebook/:movieid" element={<Booking7/>}/>
           <Route exact path="/Moviebook/:movieid" element={<Booking8/>}/>
           <Route exact path="/Moviebook/:movieid" element={<Booking9/>}/>
+          <Route exact path="/Moviebook/:movieid" element={<Booking10/>}/>
+          <Route exact path="/Moviebook/:movieid" element={<Booking11/>}/>
           <Route exact path="/Signup" element={<Signup/>}/>
           <Route exact path="/Items" element={<Items/>}/>
           <Route exact path="/get" element={<Contact/>}/>
