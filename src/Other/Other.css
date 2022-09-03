@@ -28,15 +28,16 @@
     padding: 0px 50px;
   }
   .popular_main {
-    margin: 11px 7px;
-  }
+    margin: 11px 4px;
+  width: 24%;
+}
   
   .popular_div_img {
     overflow: hidden;
   }
   .popular_img {
     filter: brightness(0.5);
-    width: 230px;
+    width: 315px;
     border-radius: 10px;
   }
   .popular_div_img .popular_img {
@@ -48,26 +49,46 @@
     filter: none;
   }
   .popular_name {
-    color: antiquewhite;
+    color: black;
     font-size: 3vh;
     text-align: initial;
+    width: 50%;
   }
   .popular_subname {
-    color: darkgray;
+    color: rgb(72, 68, 68);
     text-align: initial;
   }
   /* Responsive */
   @media screen and (max-width: 1024px) {
     .popular_container {
       justify-content: space-between;
+      padding: 5px 10px;
     }
+    .popular_div_img {
+      overflow: hidden;
+      width: auto;
+    }
+    .featured {
+      height: 35vh;
+    }
+    .popular_main {
+      margin: 11px 4px;
+      width: 30%;
+    }
+    .popular_name {
+  color: black;
+  font-size: 3vh;
+  text-align: initial;
+  width: 90%;
+}
   }
   @media screen and (max-width: 830px) {
     .popular_container {
       justify-content: space-evenly;
+      padding: 0px 8px;
     }
     .popular_img {
-      width: 188px;
+      width: 210px;
     }
   }
   
@@ -77,6 +98,7 @@
     }
     .popular_name {
       font-size: 2vh;
+      width: auto;
     }
     .popular_subname {
       font-size: x-small;
@@ -93,6 +115,7 @@
     .popular_container {
       margin-top: -200px;
     }
+    
   }
   @media screen and (max-width: 390px) {
     .popular_container {
@@ -111,6 +134,7 @@
   @media screen and (max-width: 590px) {
     .popular_container {
       justify-content: space-between;
+      padding: 0px 10px;
     }
     .popular_img {
       width: 140px;
@@ -126,6 +150,7 @@
     .popular_container {
       justify-content: center;
     }
+    
   }
   @media screen and (max-width: 375px) {
     .popular_img {
@@ -162,14 +187,18 @@
     .popular_main
     {
       margin: 11px 5px;
+width: 28%;
+
     }
     .popular_container {
-      margin-top: -45vh;
+      margin-top: -15vh;
       justify-content: center;
+      padding: 5px 5px;
+
     }
     .popular_img
     {
-      width: 130px;
+      width: 100px;
     }
   }
   @media screen and (max-width: 280px) {
