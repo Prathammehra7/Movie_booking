@@ -415,7 +415,10 @@ height: 400px;
     display: flex;
     justify-content: center;
   }
-
+  .logo1 img {
+    max-width: 80%;
+    height: auto;
+  }
   .icons {
     display: grid;
     justify-content: center;
