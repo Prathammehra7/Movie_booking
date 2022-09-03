@@ -39,14 +39,15 @@ function Booking() {
     const userId = { id: localStorage.getItem("userid") }
     console.log(userId);
     await axios.post(`https://moviebooking07.herokuapp.com/api/Moviebook/${movieid}`, userId).then(function (response) {
-      if (response.data) {
-        Swal.fire(
-          'Just Book!',
-          'Thank You ! You have Successfully Booked Your Movie',
-          'success'
-        )
-      }
-    }).catch(function (error) {
+     if(response.data)
+        {
+           Swal.fire(
+            'Just Book!',
+            'Thank You ! You have Successfully Booked Your Movie',
+            'success'
+            )
+        }
+    }).catch(function (error) { 
       console.log(error);
     })
   }
@@ -105,9 +106,7 @@ function Booking() {
               •Action,Romantic,Thriller• UA • 29 Jul, 2022
 
             </div>
-            <button className='button' onClick={() => {
-              handleBooking();
-            }}>
+            <button className='button' onClick={handleBooking} >
               Proceed To Book</button>
           </h1>
           <div class="side">
