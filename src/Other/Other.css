@@ -1,8 +1,8 @@
 .featured {
-    background-image: linear-gradient(to top, #202020, rgb(2 2 2 / 90%)),
+    background-image: linear-gradient(to top, #202020, rgb(2 2 2 / 70%)),
       url(https://excellencetheme.com/templates/avastream/images/parallax/best-series.jpg);
     height: 60vh;
-    margin-top: 120px;
+    margin-top: 70px;
   }
   .featured_info_flex {
     position: relative;
@@ -111,6 +111,7 @@
     }
     .featured {
       margin-top: 70px;
+      background-size: cover;
     }
     .popular_container {
       margin-top: -200px;
@@ -137,7 +138,7 @@
       padding: 0px 10px;
     }
     .popular_img {
-      width: 140px;
+      width: 160px;
     }
     .popular_name {
       font-size: 2vh;
@@ -186,8 +187,8 @@
     }
     .popular_main
     {
-      margin: 11px 5px;
-width: 28%;
+      margin: 11px 1px;
+width: 32%;
 
     }
     .popular_container {
@@ -198,7 +199,7 @@ width: 28%;
     }
     .popular_img
     {
-      width: 100px;
+      width: 125px;
     }
   }
   @media screen and (max-width: 280px) {
