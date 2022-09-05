@@ -7,6 +7,10 @@ import Movielb from "./Movies/Movielibrary";
 import Contact from "./Contact/Contact";
 import Items from "./Items/Items";
 import Other from "./Other/Other";
+import Upcoming from "./Upcoming/Upcoming";
+import Upcoming1 from "./Upcoming/Upcoming1";
+import Upcoming2 from "./Upcoming/Upcoming2";
+import Upcoming3 from "./Upcoming/Upcoming3";
 import Signup from "./Signup/Signup";
 import Premium from "./Premium/Premium"
 import Booking from "./Booking/Booking";
@@ -45,6 +49,10 @@ export default function App() {
           <Route exact path="/Signup" element={<Signup/>}/>
           <Route exact path="/Items" element={<Items/>}/>
           <Route exact path="/Other" element={<Other/>}/>
+          <Route exact path="/Upcoming" element={<Upcoming/>}/>
+          <Route exact path="/Upcoming1" element={<Upcoming1/>}/>
+          <Route exact path="/Upcoming2" element={<Upcoming2/>}/>
+          <Route exact path="/Upcoming3" element={<Upcoming3/>}/>
           <Route exact path="/get" element={<Contact/>}/>
         </Routes>
       </Router>
