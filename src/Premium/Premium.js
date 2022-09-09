@@ -32,7 +32,7 @@ export default function Premium() {
                         <img src="https://www.logomaker.com/api/main/images/1j+ojVVCOMkX9Wyrexe4hGfQ...Knf93QXx1nbizxmfGwQoQJlkCEvgvtj8v4tb0NZoBRejhUJd885iSx...U4gD3UQ6oXbQZs4AVn8=" alt=""></img>
                     </h2>
                     <h4 className='left-texts'>
-                        <h3>    Zoho Subscriptions is a recurring billing software that helps you manage customer subscriptions and payments for your subscription business.
+                        <h3>    IBook Subscriptions is a recurring billing software that helps you manage customer subscriptions and payments for your subscription business.
                         </h3>
                         <p>Explore all the features of our professional plan for free!</p>
 
@@ -46,12 +46,12 @@ export default function Premium() {
                 <div className="premium">
                     <h1>Special Membership</h1>
                     <div className="Form">
-                        <label htmlFor="Fname">First Name</label>
-                        <input type="Text" name="Text" id="text" placeholder="First name" required onChange={(e) => {
+                        <label htmlFor="Fname">Name</label>
+                        <input type="Text" name="Text" id="text" placeholder="Full name" required onChange={(e) => {
                             setText(e.target.value);
                         }} />
-                        <label htmlFor="lname">Last  Name</label>
-                        <input type="text" name="text" id="text" placeholder="Last name" required onChange={(e) => {
+                        <label htmlFor="Email">E-mail</label>
+                        <input type="text" name="text" id="text" placeholder="E-mail" required onChange={(e) => {
                             setText(e.target.value)
                         }} />
                         {/* <label htmlFor="lname">Country</label>
@@ -74,7 +74,7 @@ export default function Premium() {
                         <label class="label" for="remeber">I accept the Terms &amp;
                             Conditions</label>
                             </div>
-                        <button onClick={handleChange} >Submit</button>
+                        <button className='pr-button' onClick={handleChange} >Submit</button>
 
                     </div>
                 </div>

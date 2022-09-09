@@ -5,8 +5,8 @@ import "./Booking.css";
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
-import Navbar from "../navbar/Navbar";
 import Swal from 'sweetalert2';
+import Navbar from "../navbar/Navbar";
 import Footer from '../Footer/Footer';
 
 
@@ -93,12 +93,14 @@ function Booking() {
                 20.3K ratings
               </div>
             </div>
+            <div className='dimention'>
             <div class="D">
+             
               <a href="">2D</a>
             </div>
             <div class="D">
               <a href="">3D</a>
-
+              </div>
             </div>
             <div class="info">
             <p className="movie-page-p" >{Moviebook.theater} </p>

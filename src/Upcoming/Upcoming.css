@@ -142,7 +142,7 @@
         align-items: center;
         display: inline-grid;
         justify-content: right;
-        width: 80%;
+        width: 70%;
     }
 
     .Featured_info_p4 {
@@ -330,9 +330,10 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 950px) {
     .Popular_name {
         font-size: 1.5vh;
+        color: white
     }
 
     .Popular_subname {
