@@ -171,7 +171,11 @@
         height: 35vh;
         background-size: contain;
         background-repeat: no-repeat;
-
+    
+            margin-top: 70px;
+    
+            height: 900px
+        
     }
     .Featured3 {
         height: 35vh;
@@ -239,7 +243,7 @@
     .Featured2 {
         margin-top: 70px;
 
-        height: 760px
+        height: 900px
     }
     .Featured3 {
         margin-top: 70px;
@@ -345,9 +349,17 @@
         width: 32%;
 
     }
+    .Featured_info_p6 {
+        color: white;
+        font-size: 30px;
+        font-weight: 500;
+        height: 40px;
+        padding: 40px 1px;
+        margin-bottom: 20px ;
+      }
 
     .Popular_container {
-        margin-top: 12vh;
+        margin-top: 15vh;
         justify-content: center;
         padding: 5px 4px;
 

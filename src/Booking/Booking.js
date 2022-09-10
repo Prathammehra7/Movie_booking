@@ -1,7 +1,6 @@
 import React from 'react'
 import "./moviebook.css";
 import "./Booking.css";
-
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
@@ -38,7 +37,7 @@ function Booking() {
 
     const userId = { id: localStorage.getItem("userid") }
     console.log(userId);
-    await axios.post(`https://moviebooking07.herokuapp.com/api/Moviebook/${movieid}`, userId).then(function (response) {
+    await axios.post(`https://moviebooking07.herokuapp.com/movie/moviebooking/${movieid}`, userId).then(function (response) {
      if(response.data)
         {
            Swal.fire(
