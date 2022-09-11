@@ -270,9 +270,9 @@ form.example button:hover {
     align-content: center;
     align-items: center;
     height: 200px;
-
-
+    gap: 12px;
   }
+  
 
   .carousel {
     display: flex;

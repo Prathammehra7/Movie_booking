@@ -37,7 +37,7 @@ function Booking() {
 
     const userId = { id: localStorage.getItem("userid") }
     console.log(userId);
-    await axios.post(`https://moviebooking07.herokuapp.com/movie/moviebooking/${movieid}`, userId).then(function (response) {
+    await axios.get(`https://moviebooking07.herokuapp.com/movie/moviebooking/${movieid}`, userId).then(function (response) {
      if(response.data)
         {
            Swal.fire(
