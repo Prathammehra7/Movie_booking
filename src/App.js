@@ -12,6 +12,7 @@ import Upcoming from "./Upcoming/Upcoming";
 import Upcoming1 from "./Upcoming/Upcoming1";
 import Upcoming2 from "./Upcoming/Upcoming2";
 import Upcoming3 from "./Upcoming/Upcoming3";
+import Map from "./Map/Index";
 import Signup from "./Signup/Signup";
 import Premium from "./Premium/Premium"
 import Booking from "./Booking/Booking";
@@ -56,6 +57,7 @@ export default function App() {
           <Route exact path="/Upcoming2" element={<Upcoming2/>}/>
           <Route exact path="/Upcoming3" element={<Upcoming3/>}/>
           <Route exact path="/get" element={<Contact/>}/>
+          <Route exact path="/Map" element={<Map/>}/>
         </Routes>
       </Router>
     </div>
