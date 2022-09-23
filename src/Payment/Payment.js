@@ -1,45 +1,60 @@
 import axios from "axios";
 import { useState } from "react";
-import "./App.css";
+import React from 'react'
+import Swal from 'sweetalert2';
+import "./Payment.css";
 
 function Payment() {
-	const [book, setBook] = useState({
-		name: "The Fault In Our Stars",
-		author: "John Green",
-		img: "https://images-na.ssl-images-amazon.com/images/I/817tHNcyAgL.jpg",
-		price: 250,
-	});
-
-	const initPayment = (data) => {
-		const options = {
-			key: process.env.KEY_ID,
-			amount: data.amount,
-			currency: data.currency,
-			name: book.name,
-			description: "Test Transaction",
-			image: book.img,
-			order_id: data.id,
-			handler: async (response) => {
-				try {
-					const verifyUrl = "http://localhost:5000/api/Payment/verify";
-					const { data } = await axios.post(verifyUrl, response);
-					console.log(data);
-				} catch (error) {
-					console.log(error);
-				}
-			},
-			theme: {
-				color: "#3399cc",
-			},
-		};
-		const rzp1 = new window.Razorpay(options);
-		rzp1.open();
-	};
-
-	const handlePayment = async () => {
-		try {
-			const orderUrl = "http://localhost:5000/api/Payment/orders";
-			const { data } = await axios.post(orderUrl, { amount: book.price });
+  
+  const [mpayment,setmpayment] = useState({
+    price: 99,
+    movie: "Movie",
+  });
+  
+  const initPayment = (data) => {
+    const options = {
+      key: process.env.KEY_ID,
+      amount: data.amount,
+      currency: data.currency,
+      name: mpayment.movie,
+      description: "Pay to Pandit Utkarsh",
+      image: mpayment.mimg,
+      order_id: data.id,
+      handler: async (response) => {
+        try {
+          const verifyUrl = "https://moviebooking07.herokuapp.com/api/Payment/verify";
+          const { data } = await axios.post(verifyUrl, response);
+          console.log(data);
+          Swal.fire({
+            text: 'Your Booking has been Confirmed',
+            imageUrl: 'https://cdn.dribbble.com/users/911154/screenshots/3332845/vfmov3.gif',
+            imageWidth: 300,
+            imageHeight: 200,
+            imageAlt: 'Custom image',
+            confirmButtonColor: '#3085d6',
+            confirmButtonText: 'OK'
+          }).then((result) => {
+            if (result.isConfirmed) {
+              window.location.href = "/";
+            }
+          })
+        } catch (error) {
+          console.log(error);
+        }
+      },
+      theme: {
+        color: "#3399cc",
+      },
+    };
+    const rzp1 = new window.Razorpay(options);
+    rzp1.open();
+  };
+  
+  
+  const handlePayment = async () => {
+    try {
+      const orderUrl = "https://moviebooking07.herokuapp.com/api/Payment/orders";
+			const { data } = await axios.post(orderUrl, { amount: mpayment.price});
 			console.log(data);
 			initPayment(data.data);
 		} catch (error) {
@@ -47,21 +62,11 @@ function Payment() {
 		}
 	};
 
-	return (
-		<div className="App">
-			<div className="book_container">
-				<img src={book.img} alt="book_img" className="book_img" />
-				<p className="book_name">{book.name}</p>
-				<p className="book_author">By {book.author}</p>
-				<p className="book_price">
-					Price : <span>&#x20B9; {book.price}</span>
-				</p>
-				<button onClick={handlePayment} className="buy_btn">
-					buy now
-				</button>
-			</div>
-		</div>
-	);
+  return (
+    <div className='Payment_container'>
+    <div id='payment_pay'><button className='pay' onClick={handlePayment}>Pay</button></div>
+    </div>
+  )
 }
 
-export default Payment;
+export default Payment

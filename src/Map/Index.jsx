@@ -87,6 +87,11 @@ function App() {
     <Navbar/>
     <div className="App">
       <div className="container py-2 d-flex flex-column mvh-100 text-center">
+        <div className="map">
+        <img className="map__image" src="https://images.unsplash.com/photo-1604357209793-fca5dca89f97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);
+  background-size: contain;" alt="" />
+  </div>
+  <div className="map__right">
         <h3>Map</h3>
         <div className="row py-3 flex-grow-1">
           <div className="col-12">
@@ -126,6 +131,7 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
                 </div>

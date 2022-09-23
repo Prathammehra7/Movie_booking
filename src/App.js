@@ -13,6 +13,7 @@ import Upcoming1 from "./Upcoming/Upcoming1";
 import Upcoming2 from "./Upcoming/Upcoming2";
 import Upcoming3 from "./Upcoming/Upcoming3";
 import Map from "./Map/Index";
+import Payment from "./Payment/Payment";
 import Signup from "./Signup/Signup";
 import Premium from "./Premium/Premium"
 import Booking from "./Booking/Booking";
@@ -49,6 +50,7 @@ export default function App() {
           <Route exact path="/Moviebook/:movieid" element={<Booking10/>}/>
           <Route exact path="/Moviebook/:movieid" element={<Booking11/>}/>
           <Route exact path="/Signup" element={<Signup/>}/>
+          <Route exact path="/Payment" element={<Payment/>}/>
           <Route exact path="/Items" element={<Items/>}/>
           <Route exact path="/Other" element={<Other/>}/>
           <Route exact path="/Display" element={<Display/>}/>

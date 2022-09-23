@@ -38,14 +38,9 @@ function Booking() {
     const userId = { id: localStorage.getItem("userid") }
     console.log(userId);
     await axios.get(`https://moviebooking07.herokuapp.com/movie/moviebooking/${movieid}`, userId).then(function (response) {
-     if(response.data)
-        {
-           Swal.fire(
-            'Just Book!',
-            'Thank You ! You have Successfully Booked Your Movie',
-            'success'
-            )
-        }
+     {
+     window.location.href = "/Payment"
+     }
     }).catch(function (error) { 
       console.log(error);
     })
