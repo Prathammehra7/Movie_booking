@@ -17,7 +17,7 @@ function Payment() {
       amount: data.amount,
       currency: data.currency,
       name: mpayment.movie,
-      description: "Pay to Pandit Utkarsh",
+      description: "Pay to IBookshow",
       image: mpayment.mimg,
       order_id: data.id,
       handler: async (response) => {
@@ -35,7 +35,7 @@ function Payment() {
             confirmButtonText: 'OK'
           }).then((result) => {
             if (result.isConfirmed) {
-              window.location.href = "/";
+              window.location.href = "/Booking";
             }
           })
         } catch (error) {
