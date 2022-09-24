@@ -42,22 +42,26 @@ export default function Loginpage() {
 		<div class="container-login100">
 			<div class="wrap-login100">
 				<div class="login100-form validate-form p-l-55 p-r-55 p-t-178">
+					<div className="pop">
 					<span class="login100-form-title">
 						Sign In
 					</span>
 
 					<div class="wrap-input100 validate-input m-b-16" data-validate="Please enter username">
-                    <input class="input100" type="email" name="email" id="email" placeholder='username' required onChange={(e) => {
+                    <input pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9]+\.[a-z]{2,}"  class="input100" type="email" name="email" id="email" placeholder='username' required onChange={(e) => {
                         setEmail(e.target.value);
                     }} />
 						<span class="focus-input100"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate="Please enter password">
-                    <input class="input100" type="password" name="password" id="password" placeholder='password' required onChange={(e) => {
+                    <input title='Must be atleast 8 character' pattern="[a-zA-Z0-9]{8,}" class="input100" type="password" name="password" id="password" placeholder='password' required onChange={(e) => {
                         setPassword(e.target.value)
                     }} />
-						<span class="focus-input100"></span>
+						<span class="warning">
+							<p>Must be atleast 8 characters</p>
+						</span>
+					</div>
 					</div>
 
 					<div class="text-right p-t-13 p-b-23">
@@ -71,7 +75,7 @@ export default function Loginpage() {
 					</div>
 
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn"onClick={handleChange} >
+						<button type='signin' class="login100-form-btn"onClick={handleChange} >
 							Sign in
 						</button>
 					</div>

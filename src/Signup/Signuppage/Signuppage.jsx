@@ -23,30 +23,31 @@ export default function Signuppage() {
 	}
 
 	return (
-        <>
+		<>
 			<div class="limiter">
 				<div class="container-login100">
 					<div class="wrap-login100">
 						<div class="login100-form validate-form p-l-55 p-r-55 p-t-178">
-							<span class="login100-form-title">
-								Sign Up
-							</span>
+							<div className="pop">
+								<span class="login100-form-title">
+									Sign Up
+								</span>
 
-							<div class="wrap-input100 validate-input m-b-16" data-validate="Please enter username">
-								<input class="input100" type="name" name="name" id="name" placeholder='username' required onChange={(e) => {
-									setName(e.target.value);
-								}} />
+								<div class="wrap-input100 validate-input m-b-16" data-validate="Please enter username">
+									<input class="input100" type="name" name="name" id="name" placeholder='username' required onChange={(e) => {
+										setName(e.target.value);
+									}} />
 								</div>
 
 								<div class="wrap-input100 validate-input m-b-16" data-validate="Please enter email">
-									<input class="input100" type="email" name="email" id="email" placeholder='Email' required onChange={(e) => {
+									<input pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9]+\.[a-z]{2,}" class="input100" type="email" name="email" id="email" placeholder='Email' required onChange={(e) => {
 										setEmail(e.target.value);
 									}} />
 									<span class="focus-input100"></span>
 								</div>
 
 								<div class="wrap-input100 validate-input" data-validate="Please enter password">
-									<input class="input100" type="password" name="password" id="password" placeholder='password' required onChange={(e) => {
+									<input title="Must be atleast 8 character" pattern="[a-zA-Z0-9]{8,}" class="input100" type="password" name="password" id="password" placeholder='password' required onChange={(e) => {
 
 										setPass(e.target.value);
 
@@ -54,51 +55,51 @@ export default function Signuppage() {
 									<span class="focus-input100"></span>
 								</div>
 								<div class="wrap-input100 validate-input" data-validate="Please enter Confirmpassword">
-									<input class="input100" type="password" name="password" id="password" placeholder='Comfirm password' required onChange={(e) => {
+									<input title="Must be atleast 8 character" pattern="[a-zA-Z0-9]{8,}" class="input100" type="password" name="password" id="password" placeholder='Comfirm password' required onChange={(e) => {
 
 										setConPass(e.target.value);
 
 									}} />
 									<span class="focus-input100"></span>
 								</div>
+							</div>
+							<div class="text-right p-t-13 p-b-23">
+								<span class="txt1">
+									Sign In /
+								</span>
 
-								<div class="text-right p-t-13 p-b-23">
-									<span class="txt1">
-										Sign In /
-									</span>
+								<a href="/Login" class="txt2">
+									Login
+								</a>
+							</div>
 
-									<a href="/Login" class="txt2">
-										Login
-									</a>
-								</div>
+							<div class="container-login100-form-btn">
+								<button class="login100-form-btn" onClick={() => {
 
-								<div class="container-login100-form-btn">
-									<button class="login100-form-btn" onClick={() => {
+									handleSignup();
 
-										handleSignup();
+								}} >
+									Sign in
+								</button>
+							</div>
 
-									}} >
-										Sign in
-									</button>
-								</div>
+							<div class="flex-col-c p-t-170 p-b-40">
+								<span class="txt1 p-b-9">
+									Don’t have an account?
+								</span>
 
-								<div class="flex-col-c p-t-170 p-b-40">
-									<span class="txt1 p-b-9">
-										Don’t have an account?
-									</span>
-
-									<a href="/Signup" class="txt3">
-										Sign up now
-									</a>
-								</div>
+								<a href="/Signup" class="txt3">
+									Sign up now
+								</a>
 							</div>
 						</div>
 					</div>
 				</div>
+			</div>
 
 
 
-				<Footer />
-			</>
-			);
+			<Footer />
+		</>
+	);
 }
