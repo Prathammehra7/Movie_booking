@@ -35,7 +35,7 @@ function Payment() {
             confirmButtonText: 'OK'
           }).then((result) => {
             if (result.isConfirmed) {
-              window.location.href = "/Booking";
+              window.location.href = "/Product";
             }
           })
         } catch (error) {
