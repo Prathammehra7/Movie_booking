@@ -22,7 +22,7 @@
     justify-content: center;
     background-image: linear-gradient(180deg, white , black);
     display: flex;
-    width: 100%;
+    width: 50%;
     height: 600px;
     padding: 1px 20px;
 }
