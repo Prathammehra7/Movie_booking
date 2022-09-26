@@ -124,7 +124,7 @@
     .main__header {
         margin-top: 0;
         padding: 12rem 0 0;
-        height: 100vh;
+        height: 125vh;
 
     }
 
@@ -135,6 +135,10 @@
 
     .main__header-containers {
         grid-template-columns: 1fr;
+    }
+    .main__header video {
+        position: relative;
+        width: 18rem;
     }
 }
 
