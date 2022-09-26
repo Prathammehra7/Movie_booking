@@ -4,7 +4,7 @@
     background-image: url(https://media.istockphoto.com/vectors/movie-camera-cinema-background-or-banner-movie-time-movie-ticket-vector-id1360457071?b=1&k=20&m=1360457071&s=170667a&w=0&h=oR2MzD0BcOi9rMzES_KmvAWFngCbIDm6447EcMwE-I4=);
 } */
 
-:root{
+/* :root{
     --valid: lime;
     --focus: orange;
     --invalid: red;
@@ -30,8 +30,8 @@ input{
 }
 .wrap-input100:has(:placeholder-shown){
     --color:var(--blur)
-}
-.wrap-input100:has(:placeholder-shown:not(:focus)){
+} */
+/* .wrap-input100:has(:placeholder-shown:not(:focus)){
 animation: none;
 
 }
@@ -46,7 +46,7 @@ animation: none;
         transform: translateX(4%);
     }
     
-}
+} */
 
 .wrap-input100:vaild [type="signin"]{
     background: var(--valid);

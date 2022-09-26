@@ -6,23 +6,40 @@
   justify-content: right;
   align-items: center;
 }
-.container{
+
+.container {
   display: flex;
-justify-content: right;
-align-items: center;
-width: 100%;
-height: 650px;
+  justify-content: right;
+  align-items: center;
+  width: 100%;
+  height: 650px;
 }
-.map{
+
+.map {
   display: grid;
   justify-content: center;
   width: 50%;
   height: 450px;
 }
-.map__image {
- width: 80%;
- height: 100%;
 
+.map__image {
+  width: 80%;
+  height: 100%;
+
+}
+
+.map__right {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  height: 510px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.row {
+  border: 2px solid black;
 }
 
 .mvh-90 {
@@ -34,11 +51,11 @@ height: 650px;
   align-items: center;
 }
 
-.row {
+/* .row {
   height: 100%;
   width: 100%;
   padding: 2rem 3rem;
-}
+} */
 
 .row:hover {
   transform: scale(1);
@@ -46,8 +63,8 @@ height: 650px;
 }
 
 .cards {
-  width: 700px;
-  height: 250px;
+  width: 850px;
+  height: 350px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -58,27 +75,55 @@ height: 650px;
     height: 500px;
     width: 1200px;
   } */
+  @media screen and (min-width:1024px) {
 
+
+  }
 
 @media screen and (max-width:1024px) {
 
   .container {
     width: 100%;
     padding: 3rem 0rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    height: 600px;
 
+  }
+  .map {
+    display: none;
+}
+  .map__right {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 450px;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-top: 0px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+    width: 85%;
   }
 
   .cards {
-    width: 400px;
+    width: 350px;
     height: 190px;
     display: flex;
     align-items: center;
-    
+
   }
-  .row{
+
+  .row {
     width: auto;
     padding: 0rem 0rem;
   }
+
 
 
 }

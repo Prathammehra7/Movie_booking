@@ -1,40 +1,153 @@
-.Payment_container
-{
+.main__header {
+    background-image: url(https://razorpay.com/build/browser/static/hero-section-bg.1d5eacc7.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-color: black;
-    height: 100vh;   
 }
-#payment_pay
-{
-    position: absolute;
-    top: 390px;
-    right: 360px;
+
+.containers {
+    width: 80%;
+    max-width: 1920px;
+    margin-inline: auto;
 }
-.pay
-{
+
+.pay {
+    margin: 0 auto;
     padding: 5px 51px;
     font-size: 22px;
     font-family: monospace;
     border: 2px solid;
     border-radius: 8px;
-    color: gainsboro;
-    background: initial;
+    color: black;
     font-weight: bolder;
     cursor: pointer;
+    width: 50%;
+    background-color: blue;
+    color: white;
 }
 
-@media (max-width:768px) {
-    #payment_pay
-    {
+.main__header {
+    width: 100vw;
+    height: calc(100vh - 3rem);
+    display: grid;
+    place-items: center;
+}
+
+.main__header h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main__header-containers {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10rem;
+
+}
+
+.main__header-left {
+    margin-top: -3rem;
+    gap: 2rem;
+    display: grid;
+}
+
+.main__header-left h4 {
+
+    margin-bottom: 1rem;
+    color: var(--color-secondary);
+    font-weight: 400;
+
+}
+
+
+.main__header-left p {
+
+    margin: 1rem 0 3.5rem;
+    font-size: 1.1rem;
+
+}
+
+.main__header-right {
+    display: grid;
+    place-items: center;
+    position: relative;
+
+
+}
+
+
+.main__header-circle {
+    width: 25rem;
+    height: 25rem;
+    background: linear-gradient(#ffffff, transparent);
+    border-radius: 50%;
+    position: absolute;
+    transition: var(--transition);
+}
+
+.main__header video {
+    position: relative;
+    width: 25rem;
+}
+
+@media (max-width:1100px) {
+
+    .main__header {
+        height: fit-content;
+        padding: 12rem 0;
+    }
+
+    .main__header-containers {
+        gap: 0;
+    }
+
+    .main__header-circle {
+        width: 16rem;
+        height: 16rem;
+    }
+
+    .pay {
+        width: 80%;
+        padding: 10px 50px;
+    }
+
+}
+
+@media (max-width:600px) {
+    #payment_pay {
         right: 300px;
         top: 200px;
     }
+
+    .main__header {
+        margin-top: 0;
+        padding: 12rem 0 0;
+        height: 100vh;
+
+    }
+
+    .main__header-image,
+    .main__header-circle {
+        display: none;
+    }
+
+    .main__header-containers {
+        grid-template-columns: 1fr;
+    }
 }
+
 @media (max-width:425px) {
-    #payment_pay
-    {
+    #payment_pay {
         right: 130px;
         top: 200px;
+    }
+
+    .video__pay video {
+        width: 100%;
+        position: relative;
+        top: 0px;
+        right: 0px;
     }
 }

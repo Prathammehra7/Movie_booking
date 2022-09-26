@@ -95,7 +95,7 @@ function App() {
         <h3>Map</h3>
         <div className="row py-3 flex-grow-1">
           <div className="col-12">
-            <div className="cards shadow h-100">
+            <div className="cards shadow h-100 w-130">
               {/* map is defined here and traffic layer is passed in*/}
               <Map apiKey={googleMapsApiKey} layerTypes={["TrafficLayer"]} />
             </div>
