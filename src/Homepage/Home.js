@@ -98,6 +98,46 @@ export default function Home() {
             </section>
 
 
+              {/* <section id="about">
+                <div class="deals">
+                    Upcoming Movies
+                </div>
+                <div class="main2">
+                    <div class="mainicons">
+                        <div class="iconbar">
+                            <div class="icons">
+                                <a href="#!" >
+                                    <img className=" col" src="https://www.filmibeat.com/fanimg/movie/15620/brahmastra-photos-images-76811.jpg" alt="" />
+                                </a>
+                                <h1>Brahmastra – Part One: Shiva</h1>
+                            </div>
+                            <div class="icons">
+                                <a href="#!" >
+                                    <img className="col1" src="https://images.jdmagicbox.com/comp/jd_social/news/2018jul06/image-1904-7c6ece.jpg" alt="" />
+                                </a>
+                                <h1> Avatar: The Way of Water</h1>
+                            </div>
+
+                            <div class="icons">
+                                <a href="#!" >
+                                    <img className=" col" src="https://www.filmjabber.com/movie-poster-thumbs/ant-man-and-the-wasp-quantumania-movie-poster-6962.jpg" alt="" />
+                                </a>
+                                <h1>Ant-Man and The Wasp: Quantumania</h1>
+                            </div>
+
+                            <div class="icons">
+                                <a href="#!" >
+                                    <img className=" col" src="https://www.filmjabber.com/movie-poster-thumbs/scream-2022-movie-poster-6686.jpg" alt="" />
+                                </a>
+                                <h1>Scream (2022)</h1>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+ */}
+
         </>
     );
 }

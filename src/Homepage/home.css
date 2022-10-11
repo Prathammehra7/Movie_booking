@@ -227,14 +227,14 @@ background-image: none;
   align-items: center;
 }
 .containerline{
-  width: 97%;
+  width: 95%;
 display: flex;
 justify-content: center;
 
 }
 .icons{
-  padding: 1px 42px;
-  width: 24%;
+  padding: 1px 6px;
+  width: 26%;
 }
 .col{
   display: flex;
